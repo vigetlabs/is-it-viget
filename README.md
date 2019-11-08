@@ -64,8 +64,8 @@ All artboards have been exported to `design/exports` as PDFs, and slices should 
 
 The three fonts used are:
 
-- [Yesteryear](https://fonts.google.com/specimen/Yesteryear) (Google) 
-- [Ansley](https://befonts.com/ansley-display.html) (Behance, via Kady Jesko) 
+- [Yesteryear](https://fonts.google.com/specimen/Yesteryear) (Google)
+- [Ansley](https://befonts.com/ansley-display.html) (Behance, via Kady Jesko)
 - [Built Titling](https://www.dafont.com/built-titling.font) (Typodermic Fonts)
 
 You'll need to install these before opening the `.afdesign` file.
