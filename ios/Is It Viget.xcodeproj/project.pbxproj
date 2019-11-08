@@ -1,0 +1,336 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2A36C9CA2369E1CE0000B7DF /* LaunchScreenManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A36C9C92369E1CE0000B7DF /* LaunchScreenManager.swift */; };
+		2A36C9CC2369E1D70000B7DF /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2A36C9CB2369E1D70000B7DF /* LaunchScreen.xib */; };
+		2A36C9CE2369E1E50000B7DF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A36C9CD2369E1E50000B7DF /* ViewController.swift */; };
+		2A36C9D02369E1EC0000B7DF /* CameraController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A36C9CF2369E1EC0000B7DF /* CameraController.swift */; };
+		2A36C9D22369E2400000B7DF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A36C9D12369E2400000B7DF /* Main.storyboard */; };
+		2A7E493A2369DC9800130DAE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A7E49392369DC9800130DAE /* AppDelegate.swift */; };
+		2A7E49432369DC9A00130DAE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A7E49422369DC9A00130DAE /* Assets.xcassets */; };
+		2A7E495B2369DDF300130DAE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A7E495A2369DDF300130DAE /* SceneDelegate.swift */; };
+		2A80818A23720D4F004B4508 /* VigetLogoClassifier.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 2A80818923720D4F004B4508 /* VigetLogoClassifier.mlmodel */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2A36C9C92369E1CE0000B7DF /* LaunchScreenManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LaunchScreenManager.swift; sourceTree = "<group>"; };
+		2A36C9CB2369E1D70000B7DF /* LaunchScreen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LaunchScreen.xib; sourceTree = "<group>"; };
+		2A36C9CD2369E1E50000B7DF /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2A36C9CF2369E1EC0000B7DF /* CameraController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraController.swift; sourceTree = "<group>"; };
+		2A36C9D12369E2400000B7DF /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		2A7E49362369DC9800130DAE /* Is It Viget.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Is It Viget.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A7E49392369DC9800130DAE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2A7E49422369DC9A00130DAE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2A7E49472369DC9A00130DAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2A7E495A2369DDF300130DAE /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		2A80818923720D4F004B4508 /* VigetLogoClassifier.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = VigetLogoClassifier.mlmodel; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2A7E49332369DC9800130DAE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2A7E492D2369DC9800130DAE = {
+			isa = PBXGroup;
+			children = (
+				2A7E49382369DC9800130DAE /* Is It Viget */,
+				2A7E49372369DC9800130DAE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2A7E49372369DC9800130DAE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2A7E49362369DC9800130DAE /* Is It Viget.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2A7E49382369DC9800130DAE /* Is It Viget */ = {
+			isa = PBXGroup;
+			children = (
+				2A80818923720D4F004B4508 /* VigetLogoClassifier.mlmodel */,
+				2A7E49392369DC9800130DAE /* AppDelegate.swift */,
+				2A7E49422369DC9A00130DAE /* Assets.xcassets */,
+				2A36C9CF2369E1EC0000B7DF /* CameraController.swift */,
+				2A7E49472369DC9A00130DAE /* Info.plist */,
+				2A36C9CB2369E1D70000B7DF /* LaunchScreen.xib */,
+				2A36C9C92369E1CE0000B7DF /* LaunchScreenManager.swift */,
+				2A36C9D12369E2400000B7DF /* Main.storyboard */,
+				2A7E495A2369DDF300130DAE /* SceneDelegate.swift */,
+				2A36C9CD2369E1E50000B7DF /* ViewController.swift */,
+			);
+			path = "Is It Viget";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2A7E49352369DC9800130DAE /* Is It Viget */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2A7E494A2369DC9A00130DAE /* Build configuration list for PBXNativeTarget "Is It Viget" */;
+			buildPhases = (
+				2A7E49322369DC9800130DAE /* Sources */,
+				2A7E49332369DC9800130DAE /* Frameworks */,
+				2A7E49342369DC9800130DAE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Is It Viget";
+			productName = "Is It Viget";
+			productReference = 2A7E49362369DC9800130DAE /* Is It Viget.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2A7E492E2369DC9800130DAE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1110;
+				LastUpgradeCheck = 1110;
+				ORGANIZATIONNAME = Viget;
+				TargetAttributes = {
+					2A7E49352369DC9800130DAE = {
+						CreatedOnToolsVersion = 11.1;
+					};
+				};
+			};
+			buildConfigurationList = 2A7E49312369DC9800130DAE /* Build configuration list for PBXProject "Is It Viget" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2A7E492D2369DC9800130DAE;
+			productRefGroup = 2A7E49372369DC9800130DAE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2A7E49352369DC9800130DAE /* Is It Viget */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2A7E49342369DC9800130DAE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A36C9CC2369E1D70000B7DF /* LaunchScreen.xib in Resources */,
+				2A7E49432369DC9A00130DAE /* Assets.xcassets in Resources */,
+				2A36C9D22369E2400000B7DF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2A7E49322369DC9800130DAE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A36C9D02369E1EC0000B7DF /* CameraController.swift in Sources */,
+				2A36C9CE2369E1E50000B7DF /* ViewController.swift in Sources */,
+				2A80818A23720D4F004B4508 /* VigetLogoClassifier.mlmodel in Sources */,
+				2A7E493A2369DC9800130DAE /* AppDelegate.swift in Sources */,
+				2A36C9CA2369E1CE0000B7DF /* LaunchScreenManager.swift in Sources */,
+				2A7E495B2369DDF300130DAE /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		2A7E49482369DC9A00130DAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2A7E49492369DC9A00130DAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2A7E494B2369DC9A00130DAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JZNN87YRMJ;
+				INFOPLIST_FILE = "Is It Viget/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "viget.is-it-viget";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		2A7E494C2369DC9A00130DAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JZNN87YRMJ;
+				INFOPLIST_FILE = "Is It Viget/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "viget.is-it-viget";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2A7E49312369DC9800130DAE /* Build configuration list for PBXProject "Is It Viget" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A7E49482369DC9A00130DAE /* Debug */,
+				2A7E49492369DC9A00130DAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2A7E494A2369DC9A00130DAE /* Build configuration list for PBXNativeTarget "Is It Viget" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A7E494B2369DC9A00130DAE /* Debug */,
+				2A7E494C2369DC9A00130DAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2A7E492E2369DC9800130DAE /* Project object */;
+}

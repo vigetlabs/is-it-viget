@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15400" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15404"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="nfF-SH-4ug" userLabel="Ring">
+                    <rect key="frame" x="-689" y="-443" width="1792" height="1792"/>
+                    <subviews>
+                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" tag="1" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="LaunchRingSegment-1" translatesAutoresizingMaskIntoConstraints="NO" id="WEH-EG-uUb" userLabel="RingSegment-1">
+                            <rect key="frame" x="0.0" y="0.0" width="1792" height="1792"/>
+                        </imageView>
+                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" tag="2" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="LaunchRingSegment-2" translatesAutoresizingMaskIntoConstraints="NO" id="y2g-mQ-Ot9" userLabel="RingSegment-2">
+                            <rect key="frame" x="0.0" y="0.0" width="1792" height="1792"/>
+                        </imageView>
+                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" tag="3" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="LaunchRingSegment-3" translatesAutoresizingMaskIntoConstraints="NO" id="F1g-Ij-m2U" userLabel="RingSegment-3">
+                            <rect key="frame" x="0.0" y="0.0" width="1792" height="1792"/>
+                        </imageView>
+                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" tag="4" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="LaunchRingSegment-4" translatesAutoresizingMaskIntoConstraints="NO" id="2XU-4m-bbe" userLabel="RingSegment-4">
+                            <rect key="frame" x="0.0" y="0.0" width="1792" height="1792"/>
+                        </imageView>
+                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" tag="5" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="LaunchRingSegment-5" translatesAutoresizingMaskIntoConstraints="NO" id="jAk-Po-JsU" userLabel="RingSegment-5">
+                            <rect key="frame" x="0.0" y="0.0" width="1792" height="1792"/>
+                        </imageView>
+                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" tag="6" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="LaunchRingSegment-6" translatesAutoresizingMaskIntoConstraints="NO" id="4jx-UW-Jwc" userLabel="RingSegment-6">
+                            <rect key="frame" x="0.0" y="0.0" width="1792" height="1792"/>
+                        </imageView>
+                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" tag="7" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="LaunchRingSegment-7" translatesAutoresizingMaskIntoConstraints="NO" id="Ew4-kN-Ysc" userLabel="RingSegment-7">
+                            <rect key="frame" x="0.0" y="0.0" width="1792" height="1792"/>
+                        </imageView>
+                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" tag="8" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="LaunchRingSegment-8" translatesAutoresizingMaskIntoConstraints="NO" id="eZm-fv-sGw" userLabel="RingSegment-8">
+                            <rect key="frame" x="0.0" y="0.0" width="1792" height="1792"/>
+                        </imageView>
+                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" tag="9" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="LaunchRingSegment-9" translatesAutoresizingMaskIntoConstraints="NO" id="Wzm-OX-M7y" userLabel="RingSegment-9">
+                            <rect key="frame" x="0.0" y="0.0" width="1792" height="1792"/>
+                        </imageView>
+                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" tag="10" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="LaunchRingSegment-10" translatesAutoresizingMaskIntoConstraints="NO" id="nNB-AQ-Sy7" userLabel="RingSegment-10">
+                            <rect key="frame" x="0.0" y="0.0" width="1792" height="1792"/>
+                        </imageView>
+                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" tag="11" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="LaunchRingSegment-11" translatesAutoresizingMaskIntoConstraints="NO" id="Klz-zp-jwC" userLabel="RingSegment-11">
+                            <rect key="frame" x="0.0" y="0.0" width="1792" height="1792"/>
+                        </imageView>
+                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" tag="12" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="LaunchRingSegment-12" translatesAutoresizingMaskIntoConstraints="NO" id="mVj-uc-GrT" userLabel="RingSegment-12">
+                            <rect key="frame" x="0.0" y="0.0" width="1792" height="1792"/>
+                        </imageView>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstItem="WEH-EG-uUb" firstAttribute="centerX" secondItem="nfF-SH-4ug" secondAttribute="centerX" id="1HJ-Zl-EHD"/>
+                        <constraint firstItem="WEH-EG-uUb" firstAttribute="centerY" secondItem="nfF-SH-4ug" secondAttribute="centerY" id="1Pn-3Q-qBf"/>
+                        <constraint firstItem="F1g-Ij-m2U" firstAttribute="width" secondItem="nfF-SH-4ug" secondAttribute="width" id="1dm-fK-e6M"/>
+                        <constraint firstItem="mVj-uc-GrT" firstAttribute="centerY" secondItem="nfF-SH-4ug" secondAttribute="centerY" id="1ma-xA-mbh"/>
+                        <constraint firstItem="Wzm-OX-M7y" firstAttribute="centerX" secondItem="nfF-SH-4ug" secondAttribute="centerX" id="1sm-vT-dfo"/>
+                        <constraint firstItem="mVj-uc-GrT" firstAttribute="width" secondItem="nfF-SH-4ug" secondAttribute="width" id="2Yc-Ds-WeQ"/>
+                        <constraint firstItem="4jx-UW-Jwc" firstAttribute="centerY" secondItem="nfF-SH-4ug" secondAttribute="centerY" id="2uB-Q8-nXg"/>
+                        <constraint firstItem="WEH-EG-uUb" firstAttribute="width" secondItem="nfF-SH-4ug" secondAttribute="width" id="41O-a0-nDK"/>
+                        <constraint firstItem="4jx-UW-Jwc" firstAttribute="centerX" secondItem="nfF-SH-4ug" secondAttribute="centerX" id="4iv-FN-mIv"/>
+                        <constraint firstItem="eZm-fv-sGw" firstAttribute="centerX" secondItem="nfF-SH-4ug" secondAttribute="centerX" id="6E7-A3-FbY"/>
+                        <constraint firstItem="Wzm-OX-M7y" firstAttribute="height" secondItem="nfF-SH-4ug" secondAttribute="height" id="7Vw-gn-whR"/>
+                        <constraint firstItem="2XU-4m-bbe" firstAttribute="height" secondItem="nfF-SH-4ug" secondAttribute="height" id="8P6-iJ-k6L"/>
+                        <constraint firstItem="nNB-AQ-Sy7" firstAttribute="width" secondItem="nfF-SH-4ug" secondAttribute="width" id="BME-mI-O55"/>
+                        <constraint firstItem="F1g-Ij-m2U" firstAttribute="height" secondItem="nfF-SH-4ug" secondAttribute="height" id="ESh-ol-Bbc"/>
+                        <constraint firstItem="y2g-mQ-Ot9" firstAttribute="width" secondItem="nfF-SH-4ug" secondAttribute="width" id="GiH-ld-050"/>
+                        <constraint firstItem="Klz-zp-jwC" firstAttribute="height" secondItem="nfF-SH-4ug" secondAttribute="height" id="HKq-om-FTd"/>
+                        <constraint firstItem="eZm-fv-sGw" firstAttribute="width" secondItem="nfF-SH-4ug" secondAttribute="width" id="Ih2-0D-DCL"/>
+                        <constraint firstItem="Ew4-kN-Ysc" firstAttribute="width" secondItem="nfF-SH-4ug" secondAttribute="width" id="L3l-3O-e4D"/>
+                        <constraint firstItem="4jx-UW-Jwc" firstAttribute="width" secondItem="nfF-SH-4ug" secondAttribute="width" id="LJg-Qv-Z32"/>
+                        <constraint firstItem="2XU-4m-bbe" firstAttribute="centerY" secondItem="nfF-SH-4ug" secondAttribute="centerY" id="MR0-oQ-lDq"/>
+                        <constraint firstItem="Klz-zp-jwC" firstAttribute="centerY" secondItem="nfF-SH-4ug" secondAttribute="centerY" id="MWP-gO-FvC"/>
+                        <constraint firstItem="jAk-Po-JsU" firstAttribute="height" secondItem="nfF-SH-4ug" secondAttribute="height" id="McU-Co-bW0"/>
+                        <constraint firstItem="Ew4-kN-Ysc" firstAttribute="centerY" secondItem="nfF-SH-4ug" secondAttribute="centerY" id="Mcq-PO-hTX"/>
+                        <constraint firstItem="y2g-mQ-Ot9" firstAttribute="centerX" secondItem="nfF-SH-4ug" secondAttribute="centerX" id="PrA-HS-J1P"/>
+                        <constraint firstItem="mVj-uc-GrT" firstAttribute="centerX" secondItem="nfF-SH-4ug" secondAttribute="centerX" id="Rd7-XH-YK8"/>
+                        <constraint firstItem="eZm-fv-sGw" firstAttribute="centerY" secondItem="nfF-SH-4ug" secondAttribute="centerY" id="SPR-Zx-t4O"/>
+                        <constraint firstItem="y2g-mQ-Ot9" firstAttribute="centerY" secondItem="nfF-SH-4ug" secondAttribute="centerY" id="VDR-gy-uu5"/>
+                        <constraint firstItem="Klz-zp-jwC" firstAttribute="centerX" secondItem="nfF-SH-4ug" secondAttribute="centerX" id="Vmd-NL-6N7"/>
+                        <constraint firstItem="F1g-Ij-m2U" firstAttribute="centerX" secondItem="nfF-SH-4ug" secondAttribute="centerX" id="XE1-Kd-O6k"/>
+                        <constraint firstItem="nNB-AQ-Sy7" firstAttribute="centerY" secondItem="nfF-SH-4ug" secondAttribute="centerY" id="aWI-po-uH8"/>
+                        <constraint firstItem="F1g-Ij-m2U" firstAttribute="centerY" secondItem="nfF-SH-4ug" secondAttribute="centerY" id="b6D-oI-L3j"/>
+                        <constraint firstItem="eZm-fv-sGw" firstAttribute="height" secondItem="nfF-SH-4ug" secondAttribute="height" id="dDN-gh-QVH"/>
+                        <constraint firstItem="2XU-4m-bbe" firstAttribute="centerX" secondItem="nfF-SH-4ug" secondAttribute="centerX" id="dP8-ny-xtV"/>
+                        <constraint firstItem="2XU-4m-bbe" firstAttribute="width" secondItem="nfF-SH-4ug" secondAttribute="width" id="dTi-NW-DrE"/>
+                        <constraint firstItem="nNB-AQ-Sy7" firstAttribute="height" secondItem="nfF-SH-4ug" secondAttribute="height" id="dyW-0f-YkS"/>
+                        <constraint firstItem="mVj-uc-GrT" firstAttribute="height" secondItem="nfF-SH-4ug" secondAttribute="height" id="eFw-ea-9TM"/>
+                        <constraint firstItem="Wzm-OX-M7y" firstAttribute="centerY" secondItem="nfF-SH-4ug" secondAttribute="centerY" id="hTs-Iq-WA6"/>
+                        <constraint firstItem="jAk-Po-JsU" firstAttribute="centerX" secondItem="nfF-SH-4ug" secondAttribute="centerX" id="hWx-fe-FeG"/>
+                        <constraint firstItem="jAk-Po-JsU" firstAttribute="width" secondItem="nfF-SH-4ug" secondAttribute="width" id="lcY-Z8-TYX"/>
+                        <constraint firstItem="WEH-EG-uUb" firstAttribute="height" secondItem="nfF-SH-4ug" secondAttribute="height" id="mVL-Zu-nmz"/>
+                        <constraint firstItem="Wzm-OX-M7y" firstAttribute="width" secondItem="nfF-SH-4ug" secondAttribute="width" id="pep-8Z-Ldg"/>
+                        <constraint firstItem="4jx-UW-Jwc" firstAttribute="height" secondItem="nfF-SH-4ug" secondAttribute="height" id="tCy-8Q-zcm"/>
+                        <constraint firstItem="Ew4-kN-Ysc" firstAttribute="centerX" secondItem="nfF-SH-4ug" secondAttribute="centerX" id="tIQ-xN-Kyv"/>
+                        <constraint firstItem="nNB-AQ-Sy7" firstAttribute="centerX" secondItem="nfF-SH-4ug" secondAttribute="centerX" id="vK5-9I-DOd"/>
+                        <constraint firstItem="y2g-mQ-Ot9" firstAttribute="height" secondItem="nfF-SH-4ug" secondAttribute="height" id="vYU-IC-nJf"/>
+                        <constraint firstItem="Ew4-kN-Ysc" firstAttribute="height" secondItem="nfF-SH-4ug" secondAttribute="height" id="wkz-eD-A85"/>
+                        <constraint firstItem="Klz-zp-jwC" firstAttribute="width" secondItem="nfF-SH-4ug" secondAttribute="width" id="xDT-Q9-U9D"/>
+                        <constraint firstItem="jAk-Po-JsU" firstAttribute="centerY" secondItem="nfF-SH-4ug" secondAttribute="centerY" id="yKj-aH-7lj"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="l4D-aD-Lvk" userLabel="Logo">
+                    <rect key="frame" x="52" y="298" width="310.5" height="310.5"/>
+                    <subviews>
+                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" tag="100" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="LogoQuestionMark" translatesAutoresizingMaskIntoConstraints="NO" id="mIa-tU-hB8">
+                            <rect key="frame" x="0.0" y="0.0" width="310.5" height="310.5"/>
+                        </imageView>
+                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" tag="101" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="LogoIsIt" translatesAutoresizingMaskIntoConstraints="NO" id="McN-Dv-PIT">
+                            <rect key="frame" x="0.0" y="0.0" width="310.5" height="310.5"/>
+                        </imageView>
+                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" tag="102" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="LogoViget" translatesAutoresizingMaskIntoConstraints="NO" id="deT-Wu-CAg" userLabel="LogoViget">
+                            <rect key="frame" x="0.0" y="0.0" width="310.5" height="310.5"/>
+                        </imageView>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstItem="deT-Wu-CAg" firstAttribute="width" secondItem="l4D-aD-Lvk" secondAttribute="width" id="B1w-zs-M8H"/>
+                        <constraint firstItem="deT-Wu-CAg" firstAttribute="centerX" secondItem="l4D-aD-Lvk" secondAttribute="centerX" id="Bmi-W0-eGF"/>
+                        <constraint firstAttribute="width" secondItem="l4D-aD-Lvk" secondAttribute="height" id="JeY-UB-FH0"/>
+                        <constraint firstItem="deT-Wu-CAg" firstAttribute="centerY" secondItem="l4D-aD-Lvk" secondAttribute="centerY" id="K2h-PH-j2r"/>
+                        <constraint firstItem="McN-Dv-PIT" firstAttribute="height" secondItem="l4D-aD-Lvk" secondAttribute="height" id="N5u-E1-4ca"/>
+                        <constraint firstItem="McN-Dv-PIT" firstAttribute="centerY" secondItem="l4D-aD-Lvk" secondAttribute="centerY" id="OEq-ui-FDw"/>
+                        <constraint firstItem="McN-Dv-PIT" firstAttribute="centerX" secondItem="l4D-aD-Lvk" secondAttribute="centerX" id="QE7-NY-EfJ"/>
+                        <constraint firstItem="mIa-tU-hB8" firstAttribute="centerY" secondItem="l4D-aD-Lvk" secondAttribute="centerY" id="Rad-qD-69m"/>
+                        <constraint firstItem="mIa-tU-hB8" firstAttribute="height" secondItem="l4D-aD-Lvk" secondAttribute="height" id="UVL-Hd-i1o"/>
+                        <constraint firstItem="mIa-tU-hB8" firstAttribute="centerX" secondItem="l4D-aD-Lvk" secondAttribute="centerX" id="Xt5-YZ-KGV"/>
+                        <constraint firstItem="mIa-tU-hB8" firstAttribute="width" secondItem="l4D-aD-Lvk" secondAttribute="width" id="fPo-uD-jOe"/>
+                        <constraint firstItem="deT-Wu-CAg" firstAttribute="height" secondItem="l4D-aD-Lvk" secondAttribute="height" id="jsn-1Y-d9d"/>
+                        <constraint firstItem="McN-Dv-PIT" firstAttribute="width" secondItem="l4D-aD-Lvk" secondAttribute="width" id="oQA-cZ-kmK"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="l4D-aD-Lvk" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="I35-lL-l2S"/>
+                <constraint firstItem="nfF-SH-4ug" firstAttribute="height" secondItem="iN0-l3-epB" secondAttribute="height" multiplier="2" id="PSA-Za-GA9"/>
+                <constraint firstItem="l4D-aD-Lvk" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" constant="5.25" id="Sdh-5N-2gH"/>
+                <constraint firstItem="nfF-SH-4ug" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" constant="5" id="axH-fn-Vyg"/>
+                <constraint firstItem="nfF-SH-4ug" firstAttribute="width" secondItem="iN0-l3-epB" secondAttribute="height" multiplier="2" id="ekr-X3-H3n"/>
+                <constraint firstItem="l4D-aD-Lvk" firstAttribute="width" secondItem="iN0-l3-epB" secondAttribute="width" multiplier="0.75" id="i2q-FJ-ezd"/>
+                <constraint firstItem="nfF-SH-4ug" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="vor-E5-EVp"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <point key="canvasLocation" x="139" y="141"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="LaunchRingSegment-1" width="1334" height="1335"/>
+        <image name="LaunchRingSegment-10" width="1334" height="1335"/>
+        <image name="LaunchRingSegment-11" width="1334" height="1335"/>
+        <image name="LaunchRingSegment-12" width="1334" height="1335"/>
+        <image name="LaunchRingSegment-2" width="1334" height="1335"/>
+        <image name="LaunchRingSegment-3" width="1334" height="1335"/>
+        <image name="LaunchRingSegment-4" width="1334" height="1335"/>
+        <image name="LaunchRingSegment-5" width="1334" height="1335"/>
+        <image name="LaunchRingSegment-6" width="1334" height="1335"/>
+        <image name="LaunchRingSegment-7" width="1334" height="1335"/>
+        <image name="LaunchRingSegment-8" width="1334" height="1335"/>
+        <image name="LaunchRingSegment-9" width="1334" height="1335"/>
+        <image name="LogoIsIt" width="280" height="280"/>
+        <image name="LogoQuestionMark" width="280" height="280"/>
+        <image name="LogoViget" width="280" height="280"/>
+    </resources>
+</document>

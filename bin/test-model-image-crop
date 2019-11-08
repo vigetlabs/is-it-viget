@@ -1,0 +1,5 @@
+#!/bin/bash
+
+rm -rf ./model/data-cropped
+cp -r ./model/data ./model/data-cropped
+find -E ./model/data-cropped -iregex '.*\.jpe?g$' -exec mogrify -resize "299x299^" -gravity Center -crop 299x299+0+0 {} +
