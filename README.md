@@ -74,7 +74,7 @@ You'll need to install these before opening the `.afdesign` file.
 
 Export the AppIcon slice from Affinity Designer (1024x1024, JPG) and use https://appicon.co to generate the app icon.
 
-- Uncheck everything except "iPhone"
+- Uncheck everything except "iPhone" and "iPad"
 - Upload the icon
 - Click "Generate"
 - Open the ZIP to find the `AppIcon.appiconset` folder
