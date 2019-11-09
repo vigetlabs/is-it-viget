@@ -85,11 +85,14 @@
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="AtY-Tl-NF5" userLabel="Buttons">
-                                <rect key="frame" x="54.5" y="591" width="266" height="60"/>
+                                <rect key="frame" x="65.5" y="589.5" width="244" height="52.5"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Yeu-YE-3fP" userLabel="ReverseCameraButton">
-                                        <rect key="frame" x="0.0" y="0.0" width="60" height="60"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="52.5" height="52.5"/>
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" secondItem="Yeu-YE-3fP" secondAttribute="height" multiplier="1:1" id="GKq-Ow-hgT"/>
+                                        </constraints>
                                         <state key="normal" image="ReverseCameraButton">
                                             <color key="titleShadowColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
@@ -98,8 +101,11 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1lK-DJ-LCc" userLabel="TakePhotoButton">
-                                        <rect key="frame" x="206" y="0.0" width="60" height="60"/>
+                                        <rect key="frame" x="191.5" y="0.0" width="52.5" height="52.5"/>
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" secondItem="1lK-DJ-LCc" secondAttribute="height" multiplier="1:1" id="zQm-jI-NG6"/>
+                                        </constraints>
                                         <state key="normal" image="TakePhotoButton">
                                             <color key="titleShadowColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
@@ -115,10 +121,7 @@
                                     <constraint firstItem="Yeu-YE-3fP" firstAttribute="height" secondItem="AtY-Tl-NF5" secondAttribute="height" id="a36-kM-MNY"/>
                                     <constraint firstItem="Yeu-YE-3fP" firstAttribute="leading" secondItem="AtY-Tl-NF5" secondAttribute="leading" id="fHb-yD-ToR"/>
                                     <constraint firstItem="1lK-DJ-LCc" firstAttribute="top" secondItem="AtY-Tl-NF5" secondAttribute="top" id="iXW-bV-BQs"/>
-                                    <constraint firstAttribute="height" constant="60" id="kVb-od-zpH"/>
-                                    <constraint firstItem="Yeu-YE-3fP" firstAttribute="width" secondItem="AtY-Tl-NF5" secondAttribute="height" id="pDj-z2-Tfa"/>
                                     <constraint firstItem="Yeu-YE-3fP" firstAttribute="top" secondItem="AtY-Tl-NF5" secondAttribute="top" id="whx-Oe-WWe"/>
-                                    <constraint firstItem="1lK-DJ-LCc" firstAttribute="width" secondItem="AtY-Tl-NF5" secondAttribute="height" id="zLt-l9-70T"/>
                                 </constraints>
                             </view>
                             <view alpha="0.0" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0nF-um-aOc" userLabel="Flash">
@@ -129,12 +132,13 @@
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="feK-tL-IuV" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" multiplier="1.3333" id="0Aq-jF-khw"/>
-                            <constraint firstItem="AtY-Tl-NF5" firstAttribute="bottom" secondItem="wfy-db-euE" secondAttribute="top" constant="-16" id="3Ty-EN-qES"/>
+                            <constraint firstItem="AtY-Tl-NF5" firstAttribute="centerY" secondItem="cGy-aV-Ddh" secondAttribute="centerY" multiplier="1.04" id="3Pr-c6-WtV"/>
                             <constraint firstItem="Lnd-7g-U5f" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailing" id="6H3-Xq-DxO"/>
                             <constraint firstItem="SM2-Xr-lgI" firstAttribute="bottom" secondItem="8bC-Xf-vdC" secondAttribute="bottom" id="6dN-7l-m8M"/>
                             <constraint firstItem="cGy-aV-Ddh" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" id="6yY-Z8-AJO"/>
+                            <constraint firstItem="AtY-Tl-NF5" firstAttribute="centerX" secondItem="cGy-aV-Ddh" secondAttribute="centerX" id="75e-W6-6SZ"/>
                             <constraint firstItem="SM2-Xr-lgI" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="9ZX-ff-HRd"/>
-                            <constraint firstItem="AtY-Tl-NF5" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" multiplier="0.55" constant="60" id="BGi-fF-G31"/>
+                            <constraint firstItem="AtY-Tl-NF5" firstAttribute="width" secondItem="cGy-aV-Ddh" secondAttribute="width" multiplier="0.65" id="Fqx-Tl-9un"/>
                             <constraint firstItem="SM2-Xr-lgI" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" id="I25-GE-7O7"/>
                             <constraint firstItem="cGy-aV-Ddh" firstAttribute="bottom" secondItem="wfy-db-euE" secondAttribute="top" id="NIp-7l-0bW"/>
                             <constraint firstItem="feK-tL-IuV" firstAttribute="top" secondItem="cGy-aV-Ddh" secondAttribute="top" id="NpB-UO-JKO"/>
@@ -143,9 +147,9 @@
                             <constraint firstItem="PjU-WZ-IBd" firstAttribute="width" secondItem="PjU-WZ-IBd" secondAttribute="height" multiplier="375:150" id="UhK-iV-FKg"/>
                             <constraint firstItem="PjU-WZ-IBd" firstAttribute="width" secondItem="cGy-aV-Ddh" secondAttribute="width" id="Yqh-db-w8F"/>
                             <constraint firstItem="PjU-WZ-IBd" firstAttribute="centerY" secondItem="cGy-aV-Ddh" secondAttribute="centerY" id="ZkZ-2A-5tk"/>
-                            <constraint firstItem="AtY-Tl-NF5" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="b2Q-H3-JXH"/>
                             <constraint firstItem="0nF-um-aOc" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" id="hG9-aS-Lgx"/>
                             <constraint firstItem="PjU-WZ-IBd" firstAttribute="height" secondItem="cGy-aV-Ddh" secondAttribute="height" id="iw4-eD-iEb"/>
+                            <constraint firstItem="AtY-Tl-NF5" firstAttribute="height" secondItem="cGy-aV-Ddh" secondAttribute="height" multiplier="0.35" id="ovF-3y-Crc"/>
                             <constraint firstItem="Lnd-7g-U5f" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="q6o-3X-9Jx"/>
                             <constraint firstItem="Lnd-7g-U5f" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="r9n-tD-Vzp"/>
                             <constraint firstItem="feK-tL-IuV" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="tH1-ee-NwB"/>
@@ -178,7 +182,7 @@
         <image name="LabelsMatchIndicator" width="375" height="150"/>
         <image name="Needle" width="501" height="501"/>
         <image name="NeedleShadow" width="501" height="501"/>
-        <image name="ReverseCameraButton" width="60" height="60"/>
-        <image name="TakePhotoButton" width="60" height="60"/>
+        <image name="ReverseCameraButton" width="180" height="180"/>
+        <image name="TakePhotoButton" width="180" height="180"/>
     </resources>
 </document>
