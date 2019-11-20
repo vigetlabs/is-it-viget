@@ -1,6 +1,4 @@
-<div style="text-align: center">
-  <img src="./docs/iiv__demo.gif" />
-</div>
+![demo](./docs/iiv__demo.gif)
 
 Is It Viget is a demo project created for a [Viget.com article](https://www.viget.com/articles/animated-ios-launch-screen). It's *also* a machine-learning-trained app that detects the Viget logo with your phone's camera.
 
