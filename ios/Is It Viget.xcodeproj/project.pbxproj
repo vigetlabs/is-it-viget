@@ -12,10 +12,10 @@
 		2A36C9CE2369E1E50000B7DF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A36C9CD2369E1E50000B7DF /* ViewController.swift */; };
 		2A36C9D02369E1EC0000B7DF /* CameraController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A36C9CF2369E1EC0000B7DF /* CameraController.swift */; };
 		2A36C9D22369E2400000B7DF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A36C9D12369E2400000B7DF /* Main.storyboard */; };
+		2A54679B2385D6F100C9A863 /* VigetLogoClassifier.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 2A54679A2385D6F100C9A863 /* VigetLogoClassifier.mlmodel */; };
 		2A7E493A2369DC9800130DAE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A7E49392369DC9800130DAE /* AppDelegate.swift */; };
 		2A7E49432369DC9A00130DAE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A7E49422369DC9A00130DAE /* Assets.xcassets */; };
 		2A7E495B2369DDF300130DAE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A7E495A2369DDF300130DAE /* SceneDelegate.swift */; };
-		2AA7600D2377445200540DF1 /* VigetLogoClassifier.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 2AA7600C2377445200540DF1 /* VigetLogoClassifier.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,12 +24,12 @@
 		2A36C9CD2369E1E50000B7DF /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		2A36C9CF2369E1EC0000B7DF /* CameraController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraController.swift; sourceTree = "<group>"; };
 		2A36C9D12369E2400000B7DF /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		2A54679A2385D6F100C9A863 /* VigetLogoClassifier.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = VigetLogoClassifier.mlmodel; sourceTree = "<group>"; };
 		2A7E49362369DC9800130DAE /* Is It Viget.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Is It Viget.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2A7E49392369DC9800130DAE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2A7E49422369DC9A00130DAE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2A7E49472369DC9A00130DAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2A7E495A2369DDF300130DAE /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		2AA7600C2377445200540DF1 /* VigetLogoClassifier.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = VigetLogoClassifier.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,7 +62,7 @@
 		2A7E49382369DC9800130DAE /* Is It Viget */ = {
 			isa = PBXGroup;
 			children = (
-				2AA7600C2377445200540DF1 /* VigetLogoClassifier.mlmodel */,
+				2A54679A2385D6F100C9A863 /* VigetLogoClassifier.mlmodel */,
 				2A7E49392369DC9800130DAE /* AppDelegate.swift */,
 				2A7E49422369DC9A00130DAE /* Assets.xcassets */,
 				2A36C9CF2369E1EC0000B7DF /* CameraController.swift */,
@@ -149,7 +149,7 @@
 			files = (
 				2A36C9D02369E1EC0000B7DF /* CameraController.swift in Sources */,
 				2A36C9CE2369E1E50000B7DF /* ViewController.swift in Sources */,
-				2AA7600D2377445200540DF1 /* VigetLogoClassifier.mlmodel in Sources */,
+				2A54679B2385D6F100C9A863 /* VigetLogoClassifier.mlmodel in Sources */,
 				2A7E493A2369DC9800130DAE /* AppDelegate.swift in Sources */,
 				2A36C9CA2369E1CE0000B7DF /* LaunchScreenManager.swift in Sources */,
 				2A7E495B2369DDF300130DAE /* SceneDelegate.swift in Sources */,
@@ -281,6 +281,7 @@
 				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_TEAM = JZNN87YRMJ;
 				INFOPLIST_FILE = "Is It Viget/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -300,6 +301,7 @@
 				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_TEAM = JZNN87YRMJ;
 				INFOPLIST_FILE = "Is It Viget/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

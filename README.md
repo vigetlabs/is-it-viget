@@ -24,6 +24,7 @@ Open the `/ios` directory in Xcode to work on the app.
 - Inside Create ML, open `model/VigetLogoClassifier.mlproj`
 - Click "Add"
 - Set your new classifier's input to `model/data`
+- Set "maximum iterations" to 40
 - Click "Train"
 - Once finished:
   - Drag the file from "Output" out onto your Desktop
