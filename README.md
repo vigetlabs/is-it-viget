@@ -21,37 +21,34 @@ Open the `/ios` directory in Xcode to work on the app.
 ## Training
 
 - Open Xcode, then go to Xcode > Open Developer Tool > Create ML
-- Inside Create ML, open `model/VigetLogoClassifier.mlproj`
+- Inside Create ML, open `model/VigetLogoDetector.mlproj`
 - Click "Add"
-- Set your new classifier's input to `model/data`
-- Set "maximum iterations" to 40
-- Click "Train"
+- Set your new classifier's input to `model/object_data`
+- Set "maximum iterations" to at least 2500
+- Click "Train", and wait...for a while
 - Once finished:
   - Drag the file from "Output" out onto your Desktop
-  - Rename it to `VigetLogoClassifier.mlmodel`
+  - Rename it to `VigetLogoLogoDetector.mlmodel`
   - Import it into Xcode, replacing the existing model
 
 If you want to test your model _before_ adding it to the app, do the following after the "Add" step:
 
-- Before dragging `/models/data` over, remove ~30 images from each directory and move them to a `data-testing` folder with the same structure.
+- Before dragging `/models/object_data` over, and move ~30 images from each directory and into a `object_data_testing` folder with the same structure.
 - Select this folder as your "Test Data"
 - Continue the training steps
 
 ## Updating the training data
 
-Images are scaled down significantly when training, so you can safely shrink them _before_ this step to save on file size. This requires installing `imagemagick` on your computer.
+Object detection requires a lot of manual work, so there are a few scripts in IIV to help you out. The steps for adding new data:
 
-To add data to the training set, do the following:
-
-- Add your photos to `model/data/VigetLogo` or `model/data/NotViget`
-- Run `./bin/resize-model-images`. This does two things:
-  - Resizes all images to rectangles measuring 299px on the smallest side, and if not already a JPG, saves a new copy as a JPG
-  - Deletes all non-JPG files from the directory.
-
-Note that images imported into the Create ML project are automatically cropped to square — your logo _must_ be in the center square of the image. To quickly check that your images are correct:
-
-- Run `./bin/test-model-image-crop`
-- Open the `./model/data-cropped/VigetLogo` folder and visually review images. This folder is gitignored and replaced each time you run the command, so don't worry about deleting it after.
+- CD into `model/object_scripts` and `yarn install`
+- Convert any `.heic` files to `.jpgs` with this bash command: `find -E ../object_data -iregex '.*\.heic$' -exec mogrify -format jpg -quality 100 {} +`
+- Delete leftover `.heic` files with `find -E ../object_data -iregex '.*\.heic$' -exec rm {} +`
+- Examine the image you want to add, and note the Y/X/width/height pixels of any Viget logos
+- Rename the file from `{{filename}}.jpg` to `{{filename}}_x50y100w100h100-x60y100w100h100`, where each value matches the pixel coordinates from the image, and each logo position is separated by a dash.
+- Run `yarn run remove-rotation` to fix any EXIF rotation issues
+- Run `yarn run annotate` to generate the `annotations.json` file required by Create ML
+- To check your work, run `yarn run test-bounding-boxes`. This will create a `model/object_data_bounding_boxes` folder with cropped images representing each logo. You should be able to visually scan them as thumbnails.
 
 ---
 

@@ -1,0 +1,2520 @@
+[
+  {
+    "image": "12071003_x264y384w113h91.jpg",
+    "annotations": [
+      {
+        "label": "VigetLogo",
+        "coordinates": {
+          "x": 264,
+          "y": 384,
+          "width": 113,
+          "height": 91
+        }
+      }
+    ]
+  },
+  {
+    "image": "12071003_x80y116w33h25.jpg",
+    "annotations": [
+      {
+        "label": "VigetLogo",
+        "coordinates": {
+          "x": 80,
+          "y": 116,
+          "width": 33,
+          "height": 25
+        }
+      }
+    ]
+  },
+  {
+    "image": "13610971754_x78y20w46h29.jpg",
+    "annotations": [
+      {
+        "label": "VigetLogo",
+        "coordinates": {
+          "x": 78,
+          "y": 20,
+          "width": 46,
+          "height": 29
+        }
+      }
+    ]
+  },
+  {
+    "image": "15050255289_x87y136w49h44.jpg",
+    "annotations": [
+      {
+        "label": "VigetLogo",
+        "coordinates": {
+          "x": 87,
+          "y": 136,
+          "width": 49,
+          "height": 44
+        }
+      }
+    ]
+  },
+  {
+    "image": "15050256549_x133y178w17h12.jpg",
+    "annotations": [
+      {
+        "label": "VigetLogo",
+        "coordinates": {
+          "x": 133,
+          "y": 178,
+          "width": 17,
+          "height": 12
+        }
+      }
+    ]
+  },
+  {
+    "image": "15050316130_x202y208w17h14.jpg",
+    "annotations": [
+      {
+        "label": "VigetLogo",
+        "coordinates": {
+          "x": 202,
+          "y": 208,
+          "width": 17,
+          "height": 14
+        }
+      }
+    ]
+  },
+  {
+    "image": "15083222224_x183y34w55h53.jpg",
+    "annotations": [
+      {
+        "label": "VigetLogo",
+        "coordinates": {
+          "x": 183,
+          "y": 34,
+          "width": 55,
+          "height": 53
+        }
+      }
+    ]
+  },
+  {
+    "image": "15233921241_x206y213w15h14.jpg",
+    "annotations": [
+      {
+        "label": "VigetLogo",
+        "coordinates": {
+          "x": 206,
+          "y": 213,
+          "width": 15,
+          "height": 14
+        }
+      }
+    ]
+  },
+  {
+    "image": "15613258771_x199y166w43h40.jpg",
+    "annotations": [
+      {
+        "label": "VigetLogo",
+        "coordinates": {
+          "x": 199,
+          "y": 166,
+          "width": 43,
+          "height": 40
+        }
+      }
+    ]
+  },
+  {
+    "image": "15678851626_x71y155w48h41.jpg",
+    "annotations": [
+      {
+        "label": "VigetLogo",
+        "coordinates": {
+          "x": 71,
+          "y": 155,
+          "width": 48,
+          "height": 41
+        }
+      }
+    ]
+  },
+  {
+    "image": "21681658370_x63y132w50h53.jpg",
+    "annotations": [
+      {
+        "label": "VigetLogo",
+        "coordinates": {
+          "x": 63,
+          "y": 132,
+          "width": 50,
+          "height": 53
+        }
+      }
+    ]
+  },
+  {
+    "image": "26154520618_x42y281w47h47.jpg",
+    "annotations": [
+      {
+        "label": "VigetLogo",
+        "coordinates": {
+          "x": 42,
+          "y": 281,
+          "width": 47,
+          "height": 47
+        }
+      }
+    ]
+  },
+  {
+    "image": "26154520908_x118y219w43h44.jpg",
+    "annotations": [
+      {
+        "label": "VigetLogo",
+        "coordinates": {
+          "x": 118,
+          "y": 219,
+          "width": 43,
+          "height": 44
+        }
+      }
+    ]
+  },
+  {
+    "image": "26154521078_x189y254w40h39.jpg",
+    "annotations": [
+      {
+        "label": "VigetLogo",
+        "coordinates": {
+          "x": 189,
+          "y": 254,
+          "width": 40,
+          "height": 39
+        }
+      }
+    ]
+  },
+  {
+    "image": "29231129194_x30y119w53h60.jpg",
+    "annotations": [
+      {
+        "label": "VigetLogo",
+        "coordinates": {
+          "x": 30,
+          "y": 119,
+          "width": 53,
+          "height": 60
+        }
+      }
+    ]
+  },
+  {
+    "image": "29933830951_x135y111w20h18.jpg",
+    "annotations": [
+      {
+        "label": "VigetLogo",
+        "coordinates": {
+          "x": 135,
+          "y": 111,
+          "width": 20,
+          "height": 18
+        }
+      }
+    ]
+  },
+  {
+    "image": "31595428783_x139y73w51h45.jpg",
+    "annotations": [
+      {
+        "label": "VigetLogo",
+        "coordinates": {
+          "x": 139,
+          "y": 73,
+          "width": 51,
+          "height": 45
+        }
+      }
+    ]
+  },
+  {
+    "image": "32495042086_x151y64w25h23.jpg",
+    "annotations": [
+      {
+        "label": "VigetLogo",
+        "coordinates": {
+          "x": 151,
+          "y": 64,
+          "width": 25,
+          "height": 23
+        }
+      }
+    ]
+  },
+  {
+    "image": "32536092485_x154y89w25h22.jpg",
+    "annotations": [
+      {
+        "label": "VigetLogo",
+        "coordinates": {
+          "x": 154,
+          "y": 89,
+          "width": 25,
+          "height": 22
+        }
+      }
+    ]
+  },
+  {
+    "image": "32568253371_x100y63w34h28.jpg",
+    "annotations": [
+      {
+        "label": "VigetLogo",
+        "coordinates": {
+          "x": 100,
+          "y": 63,
+          "width": 34,
+          "height": 28
+        }
+      }
+    ]
+  },
+  {
+    "image": "32649660586_x89y101w33h23.jpg",
+    "annotations": [
+      {
+        "label": "VigetLogo",
+        "coordinates": {
+          "x": 89,
+          "y": 101,
+          "width": 33,
+          "height": 23
+        }
+      }
+    ]
+  },
+  {
+    "image": "36518553023_x112y225w19h23.jpg",
+    "annotations": [
+      {
+        "label": "VigetLogo",
+        "coordinates": {
+          "x": 112,
+          "y": 225,
+          "width": 19,
+          "height": 23
+        }
+      }
+    ]
+  },
+  {
+    "image": "39623923322_x108y130w15h22.jpg",
+    "annotations": [
+      {
+        "label": "VigetLogo",
+        "coordinates": {
+          "x": 108,
+          "y": 130,
+          "width": 15,
+          "height": 22
+        }
+      }
+    ]
+  },
+  {
+    "image": "39623926102_x100y206w19h28.jpg",
+    "annotations": [
+      {
+        "label": "VigetLogo",
+        "coordinates": {
+          "x": 100,
+          "y": 206,
+          "width": 19,
+          "height": 28
+        }
+      }
+    ]
+  },
+  {
+    "image": "39969987391_x54y87w28h25.jpg",
+    "annotations": [
+      {
+        "label": "VigetLogo",
+        "coordinates": {
+          "x": 54,
+          "y": 87,
+          "width": 28,
+          "height": 25
+        }
+      }
+    ]
+  },
+  {
+    "image": "40352599800_x96y126w39h20.jpg",
+    "annotations": [
+      {
+        "label": "VigetLogo",
+        "coordinates": {
+          "x": 96,
+          "y": 126,
+          "width": 39,
+          "height": 20
+        }
+      }
+    ]
+  },
+  {
+    "image": "47816705482_x201y66w66h78.jpg",
+    "annotations": [
+      {
+        "label": "VigetLogo",
+        "coordinates": {
+          "x": 201,
+          "y": 66,
+          "width": 66,
+          "height": 78
+        }
+      }
+    ]
+  },
+  {
+    "image": "48576687052_x103y87w35h30.jpg",
+    "annotations": [
+      {
+        "label": "VigetLogo",
+        "coordinates": {
+          "x": 103,
+          "y": 87,
+          "width": 35,
+          "height": 30
+        }
+      }
+    ]
+  },
+  {
+    "image": "6522820009_x131y130w48h35.jpg",
+    "annotations": [
+      {
+        "label": "VigetLogo",
+        "coordinates": {
+          "x": 131,
+          "y": 130,
+          "width": 48,
+          "height": 35
+        }
+      }
+    ]
+  },
+  {
+    "image": "6766580823_x140y108w28h27.jpg",
+    "annotations": [
+      {
+        "label": "VigetLogo",
+        "coordinates": {
+          "x": 140,
+          "y": 108,
+          "width": 28,
+          "height": 27
+        }
+      }
+    ]
+  },
+  {
+    "image": "6771891019_x186y151w16h26.jpg",
+    "annotations": [
+      {
+        "label": "VigetLogo",
+        "coordinates": {
+          "x": 186,
+          "y": 151,
+          "width": 16,
+          "height": 26
+        }
+      }
+    ]
+  },
+  {
+    "image": "6941482752_x60y195w12h25-x103y220w11h26-x149y259w13h28.jpg",
+    "annotations": [
+      {
+        "label": "VigetLogo",
+        "coordinates": {
+          "x": 60,
+          "y": 195,
+          "width": 12,
+          "height": 25
+        }
+      },
+      {
+        "label": "VigetLogo",
+        "coordinates": {
+          "x": 103,
+          "y": 220,
+          "width": 11,
+          "height": 26
+        }
+      },
+      {
+        "label": "VigetLogo",
+        "coordinates": {
+          "x": 149,
+          "y": 259,
+          "width": 13,
+          "height": 28
+        }
+      }
+    ]
+  },
+  {
+    "image": "6941490682_x12y244w29h38.jpg",
+    "annotations": [
+      {
+        "label": "VigetLogo",
+        "coordinates": {
+          "x": 12,
+          "y": 244,
+          "width": 29,
+          "height": 38
+        }
+      }
+    ]
+  },
+  {
+    "image": "7087561617_x170y41w36h32.jpg",
+    "annotations": [
+      {
+        "label": "VigetLogo",
+        "coordinates": {
+          "x": 170,
+          "y": 41,
+          "width": 36,
+          "height": 32
+        }
+      }
+    ]
+  },
+  {
+    "image": "7087561889_x166y56w34h29.jpg",
+    "annotations": [
+      {
+        "label": "VigetLogo",
+        "coordinates": {
+          "x": 166,
+          "y": 56,
+          "width": 34,
+          "height": 29
+        }
+      }
+    ]
+  },
+  {
+    "image": "7087591767_x81y13w55h54.jpg",
+    "annotations": [
+      {
+        "label": "VigetLogo",
+        "coordinates": {
+          "x": 81,
+          "y": 13,
+          "width": 55,
+          "height": 54
+        }
+      }
+    ]
+  },
+  {
+    "image": "7186977223_x168y173w15h14.jpg",
+    "annotations": [
+      {
+        "label": "VigetLogo",
+        "coordinates": {
+          "x": 168,
+          "y": 173,
+          "width": 15,
+          "height": 14
+        }
+      }
+    ]
+  },
+  {
+    "image": "7372206816_x200y189w14h13.jpg",
+    "annotations": [
+      {
+        "label": "VigetLogo",
+        "coordinates": {
+          "x": 200,
+          "y": 189,
+          "width": 14,
+          "height": 13
+        }
+      }
+    ]
+  },
+  {
+    "image": "7374816570_x97y196w24h21.jpg",
+    "annotations": [
+      {
+        "label": "VigetLogo",
+        "coordinates": {
+          "x": 97,
+          "y": 196,
+          "width": 24,
+          "height": 21
+        }
+      }
+    ]
+  },
+  {
+    "image": "8135489971_x175y62w18h15.jpg",
+    "annotations": [
+      {
+        "label": "VigetLogo",
+        "coordinates": {
+          "x": 175,
+          "y": 62,
+          "width": 18,
+          "height": 15
+        }
+      }
+    ]
+  },
+  {
+    "image": "8260351825_x32y119w34h42.jpg",
+    "annotations": [
+      {
+        "label": "VigetLogo",
+        "coordinates": {
+          "x": 32,
+          "y": 119,
+          "width": 34,
+          "height": 42
+        }
+      }
+    ]
+  },
+  {
+    "image": "8695934667_x96y175w47h40.jpg",
+    "annotations": [
+      {
+        "label": "VigetLogo",
+        "coordinates": {
+          "x": 96,
+          "y": 175,
+          "width": 47,
+          "height": 40
+        }
+      }
+    ]
+  },
+  {
+    "image": "8697059128_x83y128w31h29.jpg",
+    "annotations": [
+      {
+        "label": "VigetLogo",
+        "coordinates": {
+          "x": 83,
+          "y": 128,
+          "width": 31,
+          "height": 29
+        }
+      }
+    ]
+  },
+  {
+    "image": "8697068070_x79y69w45h80.jpg",
+    "annotations": [
+      {
+        "label": "VigetLogo",
+        "coordinates": {
+          "x": 79,
+          "y": 69,
+          "width": 45,
+          "height": 80
+        }
+      }
+    ]
+  },
+  {
+    "image": "9303402461_x10y64w81h89.jpg",
+    "annotations": [
+      {
+        "label": "VigetLogo",
+        "coordinates": {
+          "x": 10,
+          "y": 64,
+          "width": 81,
+          "height": 89
+        }
+      }
+    ]
+  },
+  {
+    "image": "9306185580_x149y216w25h21.jpg",
+    "annotations": [
+      {
+        "label": "VigetLogo",
+        "coordinates": {
+          "x": 149,
+          "y": 216,
+          "width": 25,
+          "height": 21
+        }
+      }
+    ]
+  },
+  {
+    "image": "9410189860_x200y210w16h15.jpg",
+    "annotations": [
+      {
+        "label": "VigetLogo",
+        "coordinates": {
+          "x": 200,
+          "y": 210,
+          "width": 16,
+          "height": 15
+        }
+      }
+    ]
+  },
+  {
+    "image": "IMG_0375_x67y132w54h75.jpg",
+    "annotations": [
+      {
+        "label": "VigetLogo",
+        "coordinates": {
+          "x": 67,
+          "y": 132,
+          "width": 54,
+          "height": 75
+        }
+      }
+    ]
+  },
+  {
+    "image": "IMG_2254_x409y842w213h187.jpg",
+    "annotations": [
+      {
+        "label": "VigetLogo",
+        "coordinates": {
+          "x": 409,
+          "y": 842,
+          "width": 213,
+          "height": 187
+        }
+      }
+    ]
+  },
+  {
+    "image": "IMG_2393_x108y160w34h28.jpg",
+    "annotations": [
+      {
+        "label": "VigetLogo",
+        "coordinates": {
+          "x": 108,
+          "y": 160,
+          "width": 34,
+          "height": 28
+        }
+      }
+    ]
+  },
+  {
+    "image": "IMG_2420_x114y196w26h22.jpg",
+    "annotations": [
+      {
+        "label": "VigetLogo",
+        "coordinates": {
+          "x": 114,
+          "y": 196,
+          "width": 26,
+          "height": 22
+        }
+      }
+    ]
+  },
+  {
+    "image": "IMG_2452_x177y134w19h23.jpg",
+    "annotations": [
+      {
+        "label": "VigetLogo",
+        "coordinates": {
+          "x": 177,
+          "y": 134,
+          "width": 19,
+          "height": 23
+        }
+      }
+    ]
+  },
+  {
+    "image": "IMG_2532_x167y78w23h25.jpg",
+    "annotations": [
+      {
+        "label": "VigetLogo",
+        "coordinates": {
+          "x": 167,
+          "y": 78,
+          "width": 23,
+          "height": 25
+        }
+      }
+    ]
+  },
+  {
+    "image": "IMG_2556_x472y829w221h209.jpg",
+    "annotations": [
+      {
+        "label": "VigetLogo",
+        "coordinates": {
+          "x": 472,
+          "y": 829,
+          "width": 221,
+          "height": 209
+        }
+      }
+    ]
+  },
+  {
+    "image": "IMG_2557_x94y230w115h97.jpg",
+    "annotations": [
+      {
+        "label": "VigetLogo",
+        "coordinates": {
+          "x": 94,
+          "y": 230,
+          "width": 115,
+          "height": 97
+        }
+      }
+    ]
+  },
+  {
+    "image": "IMG_2561_x324y889w189h142.jpg",
+    "annotations": [
+      {
+        "label": "VigetLogo",
+        "coordinates": {
+          "x": 324,
+          "y": 889,
+          "width": 189,
+          "height": 142
+        }
+      }
+    ]
+  },
+  {
+    "image": "IMG_2561_x89y246w54h40.jpg",
+    "annotations": [
+      {
+        "label": "VigetLogo",
+        "coordinates": {
+          "x": 89,
+          "y": 246,
+          "width": 54,
+          "height": 40
+        }
+      }
+    ]
+  },
+  {
+    "image": "IMG_2605_x192y184w28h33.jpg",
+    "annotations": [
+      {
+        "label": "VigetLogo",
+        "coordinates": {
+          "x": 192,
+          "y": 184,
+          "width": 28,
+          "height": 33
+        }
+      }
+    ]
+  },
+  {
+    "image": "IMG_2613_x126y173w84h80.jpg",
+    "annotations": [
+      {
+        "label": "VigetLogo",
+        "coordinates": {
+          "x": 126,
+          "y": 173,
+          "width": 84,
+          "height": 80
+        }
+      }
+    ]
+  },
+  {
+    "image": "IMG_2624_x381y1235w1448h1109.jpg",
+    "annotations": [
+      {
+        "label": "VigetLogo",
+        "coordinates": {
+          "x": 381,
+          "y": 1235,
+          "width": 1448,
+          "height": 1109
+        }
+      }
+    ]
+  },
+  {
+    "image": "IMG_2624_x38y123w143h110.jpg",
+    "annotations": [
+      {
+        "label": "VigetLogo",
+        "coordinates": {
+          "x": 38,
+          "y": 123,
+          "width": 143,
+          "height": 110
+        }
+      }
+    ]
+  },
+  {
+    "image": "IMG_2629_x30y142w122h140.jpg",
+    "annotations": [
+      {
+        "label": "VigetLogo",
+        "coordinates": {
+          "x": 30,
+          "y": 142,
+          "width": 122,
+          "height": 140
+        }
+      }
+    ]
+  },
+  {
+    "image": "IMG_2631_x86y149w100h74.jpg",
+    "annotations": [
+      {
+        "label": "VigetLogo",
+        "coordinates": {
+          "x": 86,
+          "y": 149,
+          "width": 100,
+          "height": 74
+        }
+      }
+    ]
+  },
+  {
+    "image": "IMG_2644_x84y228w22h30.jpg",
+    "annotations": [
+      {
+        "label": "VigetLogo",
+        "coordinates": {
+          "x": 84,
+          "y": 228,
+          "width": 22,
+          "height": 30
+        }
+      }
+    ]
+  },
+  {
+    "image": "IMG_2654_x70y147w165h141.jpg",
+    "annotations": [
+      {
+        "label": "VigetLogo",
+        "coordinates": {
+          "x": 70,
+          "y": 147,
+          "width": 165,
+          "height": 141
+        }
+      }
+    ]
+  },
+  {
+    "image": "IMG_2662_x170y148w41h31.jpg",
+    "annotations": [
+      {
+        "label": "VigetLogo",
+        "coordinates": {
+          "x": 170,
+          "y": 148,
+          "width": 41,
+          "height": 31
+        }
+      }
+    ]
+  },
+  {
+    "image": "IMG_2663_x1118y1326w383h278.jpg",
+    "annotations": [
+      {
+        "label": "VigetLogo",
+        "coordinates": {
+          "x": 1118,
+          "y": 1326,
+          "width": 383,
+          "height": 278
+        }
+      }
+    ]
+  },
+  {
+    "image": "IMG_2665_x121y287w29h17.jpg",
+    "annotations": [
+      {
+        "label": "VigetLogo",
+        "coordinates": {
+          "x": 121,
+          "y": 287,
+          "width": 29,
+          "height": 17
+        }
+      }
+    ]
+  },
+  {
+    "image": "IMG_2670_x148y161w61h43.jpg",
+    "annotations": [
+      {
+        "label": "VigetLogo",
+        "coordinates": {
+          "x": 148,
+          "y": 161,
+          "width": 61,
+          "height": 43
+        }
+      }
+    ]
+  },
+  {
+    "image": "IMG_2679_x114y236w17h15.jpg",
+    "annotations": [
+      {
+        "label": "VigetLogo",
+        "coordinates": {
+          "x": 114,
+          "y": 236,
+          "width": 17,
+          "height": 15
+        }
+      }
+    ]
+  },
+  {
+    "image": "IMG_2695_x135y332w34h38.jpg",
+    "annotations": [
+      {
+        "label": "VigetLogo",
+        "coordinates": {
+          "x": 135,
+          "y": 332,
+          "width": 34,
+          "height": 38
+        }
+      }
+    ]
+  },
+  {
+    "image": "IMG_2702_x100y224w119h139.jpg",
+    "annotations": [
+      {
+        "label": "VigetLogo",
+        "coordinates": {
+          "x": 100,
+          "y": 224,
+          "width": 119,
+          "height": 139
+        }
+      }
+    ]
+  },
+  {
+    "image": "IMG_2706_x96y301w66h78.jpg",
+    "annotations": [
+      {
+        "label": "VigetLogo",
+        "coordinates": {
+          "x": 96,
+          "y": 301,
+          "width": 66,
+          "height": 78
+        }
+      }
+    ]
+  },
+  {
+    "image": "IMG_2991_x147y267w37h34.jpg",
+    "annotations": [
+      {
+        "label": "VigetLogo",
+        "coordinates": {
+          "x": 147,
+          "y": 267,
+          "width": 37,
+          "height": 34
+        }
+      }
+    ]
+  },
+  {
+    "image": "IMG_3030_x121y157w20h16.jpg",
+    "annotations": [
+      {
+        "label": "VigetLogo",
+        "coordinates": {
+          "x": 121,
+          "y": 157,
+          "width": 20,
+          "height": 16
+        }
+      }
+    ]
+  },
+  {
+    "image": "IMG_3084_x170y193w38h30.jpg",
+    "annotations": [
+      {
+        "label": "VigetLogo",
+        "coordinates": {
+          "x": 170,
+          "y": 193,
+          "width": 38,
+          "height": 30
+        }
+      }
+    ]
+  },
+  {
+    "image": "IMG_3088_x127y209w54h37.jpg",
+    "annotations": [
+      {
+        "label": "VigetLogo",
+        "coordinates": {
+          "x": 127,
+          "y": 209,
+          "width": 54,
+          "height": 37
+        }
+      }
+    ]
+  },
+  {
+    "image": "IMG_3117_x119y217w20h33.jpg",
+    "annotations": [
+      {
+        "label": "VigetLogo",
+        "coordinates": {
+          "x": 119,
+          "y": 217,
+          "width": 20,
+          "height": 33
+        }
+      }
+    ]
+  },
+  {
+    "image": "IMG_3123_x121y202w54h60.jpg",
+    "annotations": [
+      {
+        "label": "VigetLogo",
+        "coordinates": {
+          "x": 121,
+          "y": 202,
+          "width": 54,
+          "height": 60
+        }
+      }
+    ]
+  },
+  {
+    "image": "IMG_3126_x155y155w34h57.jpg",
+    "annotations": [
+      {
+        "label": "VigetLogo",
+        "coordinates": {
+          "x": 155,
+          "y": 155,
+          "width": 34,
+          "height": 57
+        }
+      }
+    ]
+  },
+  {
+    "image": "IMG_3134_x105y204w16h18.jpg",
+    "annotations": [
+      {
+        "label": "VigetLogo",
+        "coordinates": {
+          "x": 105,
+          "y": 204,
+          "width": 16,
+          "height": 18
+        }
+      }
+    ]
+  },
+  {
+    "image": "IMG_3140_x95y175w28h24.jpg",
+    "annotations": [
+      {
+        "label": "VigetLogo",
+        "coordinates": {
+          "x": 95,
+          "y": 175,
+          "width": 28,
+          "height": 24
+        }
+      }
+    ]
+  },
+  {
+    "image": "IMG_3147_x127y197w15h15.jpg",
+    "annotations": [
+      {
+        "label": "VigetLogo",
+        "coordinates": {
+          "x": 127,
+          "y": 197,
+          "width": 15,
+          "height": 15
+        }
+      }
+    ]
+  },
+  {
+    "image": "IMG_3151_x157y184w22h26.jpg",
+    "annotations": [
+      {
+        "label": "VigetLogo",
+        "coordinates": {
+          "x": 157,
+          "y": 184,
+          "width": 22,
+          "height": 26
+        }
+      }
+    ]
+  },
+  {
+    "image": "IMG_3155_x88y196w28h20.jpg",
+    "annotations": [
+      {
+        "label": "VigetLogo",
+        "coordinates": {
+          "x": 88,
+          "y": 196,
+          "width": 28,
+          "height": 20
+        }
+      }
+    ]
+  },
+  {
+    "image": "IMG_3162_x129y151w59h47.jpg",
+    "annotations": [
+      {
+        "label": "VigetLogo",
+        "coordinates": {
+          "x": 129,
+          "y": 151,
+          "width": 59,
+          "height": 47
+        }
+      }
+    ]
+  },
+  {
+    "image": "IMG_3254_x128y259w72h54.jpg",
+    "annotations": [
+      {
+        "label": "VigetLogo",
+        "coordinates": {
+          "x": 128,
+          "y": 259,
+          "width": 72,
+          "height": 54
+        }
+      }
+    ]
+  },
+  {
+    "image": "IMG_3339_x97y109w30h32.jpg",
+    "annotations": [
+      {
+        "label": "VigetLogo",
+        "coordinates": {
+          "x": 97,
+          "y": 109,
+          "width": 30,
+          "height": 32
+        }
+      }
+    ]
+  },
+  {
+    "image": "IMG_3348_x81y130w31h40.jpg",
+    "annotations": [
+      {
+        "label": "VigetLogo",
+        "coordinates": {
+          "x": 81,
+          "y": 130,
+          "width": 31,
+          "height": 40
+        }
+      }
+    ]
+  },
+  {
+    "image": "IMG_3351_x118y189w68h61.jpg",
+    "annotations": [
+      {
+        "label": "VigetLogo",
+        "coordinates": {
+          "x": 118,
+          "y": 189,
+          "width": 68,
+          "height": 61
+        }
+      }
+    ]
+  },
+  {
+    "image": "IMG_3352_x50y121w47h43.jpg",
+    "annotations": [
+      {
+        "label": "VigetLogo",
+        "coordinates": {
+          "x": 50,
+          "y": 121,
+          "width": 47,
+          "height": 43
+        }
+      }
+    ]
+  },
+  {
+    "image": "IMG_3431_x157y190w21h23.jpg",
+    "annotations": [
+      {
+        "label": "VigetLogo",
+        "coordinates": {
+          "x": 157,
+          "y": 190,
+          "width": 21,
+          "height": 23
+        }
+      }
+    ]
+  },
+  {
+    "image": "IMG_3436_x177y329w30h18.jpg",
+    "annotations": [
+      {
+        "label": "VigetLogo",
+        "coordinates": {
+          "x": 177,
+          "y": 329,
+          "width": 30,
+          "height": 18
+        }
+      }
+    ]
+  },
+  {
+    "image": "IMG_3436_x642y1190w103h61.jpg",
+    "annotations": [
+      {
+        "label": "VigetLogo",
+        "coordinates": {
+          "x": 642,
+          "y": 1190,
+          "width": 103,
+          "height": 61
+        }
+      }
+    ]
+  },
+  {
+    "image": "IMG_3439_x470y1272w55h85.jpg",
+    "annotations": [
+      {
+        "label": "VigetLogo",
+        "coordinates": {
+          "x": 470,
+          "y": 1272,
+          "width": 55,
+          "height": 85
+        }
+      }
+    ]
+  },
+  {
+    "image": "IMG_3443_x138y221w42h36.jpg",
+    "annotations": [
+      {
+        "label": "VigetLogo",
+        "coordinates": {
+          "x": 138,
+          "y": 221,
+          "width": 42,
+          "height": 36
+        }
+      }
+    ]
+  },
+  {
+    "image": "IMG_3450_x102y248w44h39.jpg",
+    "annotations": [
+      {
+        "label": "VigetLogo",
+        "coordinates": {
+          "x": 102,
+          "y": 248,
+          "width": 44,
+          "height": 39
+        }
+      }
+    ]
+  },
+  {
+    "image": "IMG_3450_x371y895w157h142.jpg",
+    "annotations": [
+      {
+        "label": "VigetLogo",
+        "coordinates": {
+          "x": 371,
+          "y": 895,
+          "width": 157,
+          "height": 142
+        }
+      }
+    ]
+  },
+  {
+    "image": "IMG_3454_x122y216w71h54.jpg",
+    "annotations": [
+      {
+        "label": "VigetLogo",
+        "coordinates": {
+          "x": 122,
+          "y": 216,
+          "width": 71,
+          "height": 54
+        }
+      }
+    ]
+  },
+  {
+    "image": "IMG_3457_x137y160w87h60.jpg",
+    "annotations": [
+      {
+        "label": "VigetLogo",
+        "coordinates": {
+          "x": 137,
+          "y": 160,
+          "width": 87,
+          "height": 60
+        }
+      }
+    ]
+  },
+  {
+    "image": "IMG_3481_x127y279w92h70.jpg",
+    "annotations": [
+      {
+        "label": "VigetLogo",
+        "coordinates": {
+          "x": 127,
+          "y": 279,
+          "width": 92,
+          "height": 70
+        }
+      }
+    ]
+  },
+  {
+    "image": "IMG_3493_x462y759w194h236.jpg",
+    "annotations": [
+      {
+        "label": "VigetLogo",
+        "coordinates": {
+          "x": 462,
+          "y": 759,
+          "width": 194,
+          "height": 236
+        }
+      }
+    ]
+  },
+  {
+    "image": "IMG_3495_x85y233w31h32.jpg",
+    "annotations": [
+      {
+        "label": "VigetLogo",
+        "coordinates": {
+          "x": 85,
+          "y": 233,
+          "width": 31,
+          "height": 32
+        }
+      }
+    ]
+  },
+  {
+    "image": "IMG_3502_x102y217w23h23.jpg",
+    "annotations": [
+      {
+        "label": "VigetLogo",
+        "coordinates": {
+          "x": 102,
+          "y": 217,
+          "width": 23,
+          "height": 23
+        }
+      }
+    ]
+  },
+  {
+    "image": "IMG_3503_x107y218w22h23.jpg",
+    "annotations": [
+      {
+        "label": "VigetLogo",
+        "coordinates": {
+          "x": 107,
+          "y": 218,
+          "width": 22,
+          "height": 23
+        }
+      }
+    ]
+  },
+  {
+    "image": "IMG_3503_x387y788w80h81.jpg",
+    "annotations": [
+      {
+        "label": "VigetLogo",
+        "coordinates": {
+          "x": 387,
+          "y": 788,
+          "width": 80,
+          "height": 81
+        }
+      }
+    ]
+  },
+  {
+    "image": "IMG_3510_x105y201w46h39.jpg",
+    "annotations": [
+      {
+        "label": "VigetLogo",
+        "coordinates": {
+          "x": 105,
+          "y": 201,
+          "width": 46,
+          "height": 39
+        }
+      }
+    ]
+  },
+  {
+    "image": "IMG_3516_x123y242w19h14.jpg",
+    "annotations": [
+      {
+        "label": "VigetLogo",
+        "coordinates": {
+          "x": 123,
+          "y": 242,
+          "width": 19,
+          "height": 14
+        }
+      }
+    ]
+  },
+  {
+    "image": "IMG_3517_x92y213w32h23.jpg",
+    "annotations": [
+      {
+        "label": "VigetLogo",
+        "coordinates": {
+          "x": 92,
+          "y": 213,
+          "width": 32,
+          "height": 23
+        }
+      }
+    ]
+  },
+  {
+    "image": "IMG_3533_x110y211w32h26.jpg",
+    "annotations": [
+      {
+        "label": "VigetLogo",
+        "coordinates": {
+          "x": 110,
+          "y": 211,
+          "width": 32,
+          "height": 26
+        }
+      }
+    ]
+  },
+  {
+    "image": "IMG_3536_x102y215w77h112.jpg",
+    "annotations": [
+      {
+        "label": "VigetLogo",
+        "coordinates": {
+          "x": 102,
+          "y": 215,
+          "width": 77,
+          "height": 112
+        }
+      }
+    ]
+  },
+  {
+    "image": "IMG_3555_x107y202w80h92.jpg",
+    "annotations": [
+      {
+        "label": "VigetLogo",
+        "coordinates": {
+          "x": 107,
+          "y": 202,
+          "width": 80,
+          "height": 92
+        }
+      }
+    ]
+  },
+  {
+    "image": "IMG_3605_x49y192w147h122.jpg",
+    "annotations": [
+      {
+        "label": "VigetLogo",
+        "coordinates": {
+          "x": 49,
+          "y": 192,
+          "width": 147,
+          "height": 122
+        }
+      }
+    ]
+  },
+  {
+    "image": "IMG_3619_x479y770w125h93.jpg",
+    "annotations": [
+      {
+        "label": "VigetLogo",
+        "coordinates": {
+          "x": 479,
+          "y": 770,
+          "width": 125,
+          "height": 93
+        }
+      }
+    ]
+  },
+  {
+    "image": "IMG_3625_x129y234w24h27-x164y304w26h25.jpg",
+    "annotations": [
+      {
+        "label": "VigetLogo",
+        "coordinates": {
+          "x": 129,
+          "y": 234,
+          "width": 24,
+          "height": 27
+        }
+      },
+      {
+        "label": "VigetLogo",
+        "coordinates": {
+          "x": 164,
+          "y": 304,
+          "width": 26,
+          "height": 25
+        }
+      }
+    ]
+  },
+  {
+    "image": "IMG_3630_x84y258w26h36-x146y337w29h37.jpg",
+    "annotations": [
+      {
+        "label": "VigetLogo",
+        "coordinates": {
+          "x": 84,
+          "y": 258,
+          "width": 26,
+          "height": 36
+        }
+      },
+      {
+        "label": "VigetLogo",
+        "coordinates": {
+          "x": 146,
+          "y": 337,
+          "width": 29,
+          "height": 37
+        }
+      }
+    ]
+  },
+  {
+    "image": "IMG_3634_x129y255w19h13.jpg",
+    "annotations": [
+      {
+        "label": "VigetLogo",
+        "coordinates": {
+          "x": 129,
+          "y": 255,
+          "width": 19,
+          "height": 13
+        }
+      }
+    ]
+  },
+  {
+    "image": "IMG_3637_x115y53w44h41-x119y215w95h82.jpg",
+    "annotations": [
+      {
+        "label": "VigetLogo",
+        "coordinates": {
+          "x": 115,
+          "y": 53,
+          "width": 44,
+          "height": 41
+        }
+      },
+      {
+        "label": "VigetLogo",
+        "coordinates": {
+          "x": 119,
+          "y": 215,
+          "width": 95,
+          "height": 82
+        }
+      }
+    ]
+  },
+  {
+    "image": "IMG_3650_x94y222w35h33.jpg",
+    "annotations": [
+      {
+        "label": "VigetLogo",
+        "coordinates": {
+          "x": 94,
+          "y": 222,
+          "width": 35,
+          "height": 33
+        }
+      }
+    ]
+  },
+  {
+    "image": "IMG_3652_x95y145w42h30.jpg",
+    "annotations": [
+      {
+        "label": "VigetLogo",
+        "coordinates": {
+          "x": 95,
+          "y": 145,
+          "width": 42,
+          "height": 30
+        }
+      }
+    ]
+  },
+  {
+    "image": "IMG_3653_x120y188w74h52.jpg",
+    "annotations": [
+      {
+        "label": "VigetLogo",
+        "coordinates": {
+          "x": 120,
+          "y": 188,
+          "width": 74,
+          "height": 52
+        }
+      }
+    ]
+  },
+  {
+    "image": "IMG_3655_x96y181w87h81.jpg",
+    "annotations": [
+      {
+        "label": "VigetLogo",
+        "coordinates": {
+          "x": 96,
+          "y": 181,
+          "width": 87,
+          "height": 81
+        }
+      }
+    ]
+  },
+  {
+    "image": "IMG_3659_x47y213w26h24-x219y207w28h24.jpg",
+    "annotations": [
+      {
+        "label": "VigetLogo",
+        "coordinates": {
+          "x": 47,
+          "y": 213,
+          "width": 26,
+          "height": 24
+        }
+      },
+      {
+        "label": "VigetLogo",
+        "coordinates": {
+          "x": 219,
+          "y": 207,
+          "width": 28,
+          "height": 24
+        }
+      }
+    ]
+  },
+  {
+    "image": "IMG_3669_x144y225w55h44.jpg",
+    "annotations": [
+      {
+        "label": "VigetLogo",
+        "coordinates": {
+          "x": 144,
+          "y": 225,
+          "width": 55,
+          "height": 44
+        }
+      }
+    ]
+  },
+  {
+    "image": "IMG_3670_x132y280w59h45.jpg",
+    "annotations": [
+      {
+        "label": "VigetLogo",
+        "coordinates": {
+          "x": 132,
+          "y": 280,
+          "width": 59,
+          "height": 45
+        }
+      }
+    ]
+  },
+  {
+    "image": "IMG_3687_x148y225w39h24.jpg",
+    "annotations": [
+      {
+        "label": "VigetLogo",
+        "coordinates": {
+          "x": 148,
+          "y": 225,
+          "width": 39,
+          "height": 24
+        }
+      }
+    ]
+  },
+  {
+    "image": "IMG_3696_x99y180w86h77.jpg",
+    "annotations": [
+      {
+        "label": "VigetLogo",
+        "coordinates": {
+          "x": 99,
+          "y": 180,
+          "width": 86,
+          "height": 77
+        }
+      }
+    ]
+  },
+  {
+    "image": "IMG_3700_x112y219w45h48.jpg",
+    "annotations": [
+      {
+        "label": "VigetLogo",
+        "coordinates": {
+          "x": 112,
+          "y": 219,
+          "width": 45,
+          "height": 48
+        }
+      }
+    ]
+  },
+  {
+    "image": "IMG_3704_x154y232w36h60.jpg",
+    "annotations": [
+      {
+        "label": "VigetLogo",
+        "coordinates": {
+          "x": 154,
+          "y": 232,
+          "width": 36,
+          "height": 60
+        }
+      }
+    ]
+  },
+  {
+    "image": "IMG_4011_x113y223w43h34.jpg",
+    "annotations": [
+      {
+        "label": "VigetLogo",
+        "coordinates": {
+          "x": 113,
+          "y": 223,
+          "width": 43,
+          "height": 34
+        }
+      }
+    ]
+  },
+  {
+    "image": "IMG_4031_x125y273w48h43.jpg",
+    "annotations": [
+      {
+        "label": "VigetLogo",
+        "coordinates": {
+          "x": 125,
+          "y": 273,
+          "width": 48,
+          "height": 43
+        }
+      }
+    ]
+  },
+  {
+    "image": "IMG_4045_x118y278w83h61.jpg",
+    "annotations": [
+      {
+        "label": "VigetLogo",
+        "coordinates": {
+          "x": 118,
+          "y": 278,
+          "width": 83,
+          "height": 61
+        }
+      }
+    ]
+  },
+  {
+    "image": "IMG_4048_x136y279w72h76.jpg",
+    "annotations": [
+      {
+        "label": "VigetLogo",
+        "coordinates": {
+          "x": 136,
+          "y": 279,
+          "width": 72,
+          "height": 76
+        }
+      }
+    ]
+  },
+  {
+    "image": "IMG_4059_x461y611w281h249.jpg",
+    "annotations": [
+      {
+        "label": "VigetLogo",
+        "coordinates": {
+          "x": 461,
+          "y": 611,
+          "width": 281,
+          "height": 249
+        }
+      }
+    ]
+  },
+  {
+    "image": "IMG_4060_x115y135w78h67.jpg",
+    "annotations": [
+      {
+        "label": "VigetLogo",
+        "coordinates": {
+          "x": 115,
+          "y": 135,
+          "width": 78,
+          "height": 67
+        }
+      }
+    ]
+  },
+  {
+    "image": "IMG_4063_x105y224w54h45.jpg",
+    "annotations": [
+      {
+        "label": "VigetLogo",
+        "coordinates": {
+          "x": 105,
+          "y": 224,
+          "width": 54,
+          "height": 45
+        }
+      }
+    ]
+  },
+  {
+    "image": "IMG_4070_x103y191w50h40.jpg",
+    "annotations": [
+      {
+        "label": "VigetLogo",
+        "coordinates": {
+          "x": 103,
+          "y": 191,
+          "width": 50,
+          "height": 40
+        }
+      }
+    ]
+  },
+  {
+    "image": "IMG_4071_x98y197w34h25.jpg",
+    "annotations": [
+      {
+        "label": "VigetLogo",
+        "coordinates": {
+          "x": 98,
+          "y": 197,
+          "width": 34,
+          "height": 25
+        }
+      }
+    ]
+  },
+  {
+    "image": "IMG_4072_x75y214w58h35.jpg",
+    "annotations": [
+      {
+        "label": "VigetLogo",
+        "coordinates": {
+          "x": 75,
+          "y": 214,
+          "width": 58,
+          "height": 35
+        }
+      }
+    ]
+  },
+  {
+    "image": "IMG_4073_x74y211w58h37.jpg",
+    "annotations": [
+      {
+        "label": "VigetLogo",
+        "coordinates": {
+          "x": 74,
+          "y": 211,
+          "width": 58,
+          "height": 37
+        }
+      }
+    ]
+  },
+  {
+    "image": "IMG_4074_x94y186w55h52.jpg",
+    "annotations": [
+      {
+        "label": "VigetLogo",
+        "coordinates": {
+          "x": 94,
+          "y": 186,
+          "width": 55,
+          "height": 52
+        }
+      }
+    ]
+  },
+  {
+    "image": "IMG_4081_x87y256w111h65.jpg",
+    "annotations": [
+      {
+        "label": "VigetLogo",
+        "coordinates": {
+          "x": 87,
+          "y": 256,
+          "width": 111,
+          "height": 65
+        }
+      }
+    ]
+  },
+  {
+    "image": "IMG_4082_x102y265w83h52.jpg",
+    "annotations": [
+      {
+        "label": "VigetLogo",
+        "coordinates": {
+          "x": 102,
+          "y": 265,
+          "width": 83,
+          "height": 52
+        }
+      }
+    ]
+  },
+  {
+    "image": "IMG_4083_x103y268w83h52.jpg",
+    "annotations": [
+      {
+        "label": "VigetLogo",
+        "coordinates": {
+          "x": 103,
+          "y": 268,
+          "width": 83,
+          "height": 52
+        }
+      }
+    ]
+  },
+  {
+    "image": "IMG_4084_x122y260w72h45.jpg",
+    "annotations": [
+      {
+        "label": "VigetLogo",
+        "coordinates": {
+          "x": 122,
+          "y": 260,
+          "width": 72,
+          "height": 45
+        }
+      }
+    ]
+  },
+  {
+    "image": "IMG_4084_x441y937w262h168.jpg",
+    "annotations": [
+      {
+        "label": "VigetLogo",
+        "coordinates": {
+          "x": 441,
+          "y": 937,
+          "width": 262,
+          "height": 168
+        }
+      }
+    ]
+  },
+  {
+    "image": "IMG_4085_x120y258w73h46.jpg",
+    "annotations": [
+      {
+        "label": "VigetLogo",
+        "coordinates": {
+          "x": 120,
+          "y": 258,
+          "width": 73,
+          "height": 46
+        }
+      }
+    ]
+  },
+  {
+    "image": "IMG_4091_x126y274w42h41.jpg",
+    "annotations": [
+      {
+        "label": "VigetLogo",
+        "coordinates": {
+          "x": 126,
+          "y": 274,
+          "width": 42,
+          "height": 41
+        }
+      }
+    ]
+  },
+  {
+    "image": "IMG_4092_x116y280w48h36.jpg",
+    "annotations": [
+      {
+        "label": "VigetLogo",
+        "coordinates": {
+          "x": 116,
+          "y": 280,
+          "width": 48,
+          "height": 36
+        }
+      }
+    ]
+  },
+  {
+    "image": "IMG_4093_x151y264w50h48.jpg",
+    "annotations": [
+      {
+        "label": "VigetLogo",
+        "coordinates": {
+          "x": 151,
+          "y": 264,
+          "width": 50,
+          "height": 48
+        }
+      }
+    ]
+  },
+  {
+    "image": "IMG_4094_x147y262w48h53.jpg",
+    "annotations": [
+      {
+        "label": "VigetLogo",
+        "coordinates": {
+          "x": 147,
+          "y": 262,
+          "width": 48,
+          "height": 53
+        }
+      }
+    ]
+  },
+  {
+    "image": "IMG_4096_x136y241w66h42.jpg",
+    "annotations": [
+      {
+        "label": "VigetLogo",
+        "coordinates": {
+          "x": 136,
+          "y": 241,
+          "width": 66,
+          "height": 42
+        }
+      }
+    ]
+  },
+  {
+    "image": "IMG_4097_x122y256w69h43.jpg",
+    "annotations": [
+      {
+        "label": "VigetLogo",
+        "coordinates": {
+          "x": 122,
+          "y": 256,
+          "width": 69,
+          "height": 43
+        }
+      }
+    ]
+  },
+  {
+    "image": "IMG_4098_x123y244w70h42.jpg",
+    "annotations": [
+      {
+        "label": "VigetLogo",
+        "coordinates": {
+          "x": 123,
+          "y": 244,
+          "width": 70,
+          "height": 42
+        }
+      }
+    ]
+  },
+  {
+    "image": "IMG_4099_x160y231w39h60.jpg",
+    "annotations": [
+      {
+        "label": "VigetLogo",
+        "coordinates": {
+          "x": 160,
+          "y": 231,
+          "width": 39,
+          "height": 60
+        }
+      }
+    ]
+  },
+  {
+    "image": "IMG_4102_x57y238w68h57.jpg",
+    "annotations": [
+      {
+        "label": "VigetLogo",
+        "coordinates": {
+          "x": 57,
+          "y": 238,
+          "width": 68,
+          "height": 57
+        }
+      }
+    ]
+  },
+  {
+    "image": "IMG_4103_x96y248w48h40.jpg",
+    "annotations": [
+      {
+        "label": "VigetLogo",
+        "coordinates": {
+          "x": 96,
+          "y": 248,
+          "width": 48,
+          "height": 40
+        }
+      }
+    ]
+  },
+  {
+    "image": "IMG_4110_x112y219w60h38.jpg",
+    "annotations": [
+      {
+        "label": "VigetLogo",
+        "coordinates": {
+          "x": 112,
+          "y": 219,
+          "width": 60,
+          "height": 38
+        }
+      }
+    ]
+  },
+  {
+    "image": "IMG_4113_x297y1140w90h80_x754y728w100h83.jpg",
+    "annotations": [
+      {
+        "label": "VigetLogo",
+        "coordinates": {
+          "x": 754,
+          "y": 728,
+          "width": 100,
+          "height": 83
+        }
+      }
+    ]
+  },
+  {
+    "image": "IMG_4114_x82y291w30h22.jpg",
+    "annotations": [
+      {
+        "label": "VigetLogo",
+        "coordinates": {
+          "x": 82,
+          "y": 291,
+          "width": 30,
+          "height": 22
+        }
+      }
+    ]
+  },
+  {
+    "image": "IMG_4115_x127y284w48h36.jpg",
+    "annotations": [
+      {
+        "label": "VigetLogo",
+        "coordinates": {
+          "x": 127,
+          "y": 284,
+          "width": 48,
+          "height": 36
+        }
+      }
+    ]
+  },
+  {
+    "image": "IMG_4116_x130y273w56h34.jpg",
+    "annotations": [
+      {
+        "label": "VigetLogo",
+        "coordinates": {
+          "x": 130,
+          "y": 273,
+          "width": 56,
+          "height": 34
+        }
+      }
+    ]
+  },
+  {
+    "image": "IMG_4124_x114y218w65h56.jpg",
+    "annotations": [
+      {
+        "label": "VigetLogo",
+        "coordinates": {
+          "x": 114,
+          "y": 218,
+          "width": 65,
+          "height": 56
+        }
+      }
+    ]
+  },
+  {
+    "image": "IMG_4125_x116y158w68h61.jpg",
+    "annotations": [
+      {
+        "label": "VigetLogo",
+        "coordinates": {
+          "x": 116,
+          "y": 158,
+          "width": 68,
+          "height": 61
+        }
+      }
+    ]
+  },
+  {
+    "image": "IMG_4141_x91y190w120h108.jpg",
+    "annotations": [
+      {
+        "label": "VigetLogo",
+        "coordinates": {
+          "x": 91,
+          "y": 190,
+          "width": 120,
+          "height": 108
+        }
+      }
+    ]
+  },
+  {
+    "image": "IMG_4143_x73y167w154h153.jpg",
+    "annotations": [
+      {
+        "label": "VigetLogo",
+        "coordinates": {
+          "x": 73,
+          "y": 167,
+          "width": 154,
+          "height": 153
+        }
+      }
+    ]
+  },
+  {
+    "image": "IMG_4145_x78y177w179h158.jpg",
+    "annotations": [
+      {
+        "label": "VigetLogo",
+        "coordinates": {
+          "x": 78,
+          "y": 177,
+          "width": 179,
+          "height": 158
+        }
+      }
+    ]
+  },
+  {
+    "image": "IMG_4149_x97y207w120h104.jpg",
+    "annotations": [
+      {
+        "label": "VigetLogo",
+        "coordinates": {
+          "x": 97,
+          "y": 207,
+          "width": 120,
+          "height": 104
+        }
+      }
+    ]
+  },
+  {
+    "image": "IMG_4151_x62y132w178h158.jpg",
+    "annotations": [
+      {
+        "label": "VigetLogo",
+        "coordinates": {
+          "x": 62,
+          "y": 132,
+          "width": 178,
+          "height": 158
+        }
+      }
+    ]
+  },
+  {
+    "image": "IMG_4152_x82y151w150h139.jpg",
+    "annotations": [
+      {
+        "label": "VigetLogo",
+        "coordinates": {
+          "x": 82,
+          "y": 151,
+          "width": 150,
+          "height": 139
+        }
+      }
+    ]
+  },
+  {
+    "image": "IMG_4153_x64y193w155h133.jpg",
+    "annotations": [
+      {
+        "label": "VigetLogo",
+        "coordinates": {
+          "x": 64,
+          "y": 193,
+          "width": 155,
+          "height": 133
+        }
+      }
+    ]
+  },
+  {
+    "image": "IMG_4155_x127y226w66h57.jpg",
+    "annotations": [
+      {
+        "label": "VigetLogo",
+        "coordinates": {
+          "x": 127,
+          "y": 226,
+          "width": 66,
+          "height": 57
+        }
+      }
+    ]
+  },
+  {
+    "image": "IMG_4155_x464y815w232h204.jpg",
+    "annotations": [
+      {
+        "label": "VigetLogo",
+        "coordinates": {
+          "x": 464,
+          "y": 815,
+          "width": 232,
+          "height": 204
+        }
+      }
+    ]
+  },
+  {
+    "image": "IMG_4156_x81y195w139h134.jpg",
+    "annotations": [
+      {
+        "label": "VigetLogo",
+        "coordinates": {
+          "x": 81,
+          "y": 195,
+          "width": 139,
+          "height": 134
+        }
+      }
+    ]
+  },
+  {
+    "image": "IMG_4157_x96y163w128h104.jpg",
+    "annotations": [
+      {
+        "label": "VigetLogo",
+        "coordinates": {
+          "x": 96,
+          "y": 163,
+          "width": 128,
+          "height": 104
+        }
+      }
+    ]
+  },
+  {
+    "image": "Reception_x30y105w21h21.jpg",
+    "annotations": [
+      {
+        "label": "VigetLogo",
+        "coordinates": {
+          "x": 30,
+          "y": 105,
+          "width": 21,
+          "height": 21
+        }
+      }
+    ]
+  }
+]

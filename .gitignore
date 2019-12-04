@@ -1,3 +1,4 @@
 .DS_Store
 *.xcuserstate
-model/data-cropped
+model/object_data_bounding_boxes
+model/object_scripts/node_modules

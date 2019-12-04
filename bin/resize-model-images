@@ -1,4 +1,0 @@
-#!/bin/bash
-
-find -E ./model/data -iregex '.*\.(jpe?g|png|heic)$' -exec mogrify -resize "299x299^" -format jpg -quality 100 {} +
-find -E ./model/data -type f -not -iregex '.*\.(jpe?g|DS_Store)$' -exec rm {} \;

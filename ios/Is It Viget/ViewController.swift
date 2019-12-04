@@ -29,7 +29,13 @@ class ViewController: UIViewController {
 
     // Timing values for checks
     let jitterCheckInterval = 0.15
-    let classificationCheckInterval = 1.0
+    let needleAnimationDuration = 0.5
+    let classificationCheckInterval = 0.1
+
+    // Visible bounding box when debugging
+    var boundingBox: UIView?
+    var isBoundingBoxVisible = false
+    let boundingBoxOffset = CGFloat(18.0)
 
     let cameraController = CameraController()
 
@@ -67,6 +73,16 @@ class ViewController: UIViewController {
 
     // MARK: - Lifecycle
 
+    override func becomeFirstResponder() -> Bool {
+        return true
+    }
+
+    override func motionEnded(_ motion: UIEvent.EventSubtype, with event: UIEvent?) {
+        if motion == .motionShake {
+            isBoundingBoxVisible = !isBoundingBoxVisible
+        }
+    }
+
     override func viewDidLoad() {
         cameraController.prepare {_ in
             try? self.cameraController.displayPreview(on: self.capturePreviewView)
@@ -87,12 +103,29 @@ class ViewController: UIViewController {
             userInfo: nil,
             repeats: true
         )
+
+        let rect = CGRect(
+            origin: CGPoint(x: 50, y: 50),
+            size: CGSize(width: 20.0, height: 20.0)
+        )
+
+        boundingBox = UIView(frame: rect)
+        boundingBox?.layer.borderColor = UIColor(red: 242/255, green: 233/255, blue: 225/255, alpha: 1).cgColor
+        boundingBox?.layer.borderWidth = 2
+        boundingBox?.layer.shadowColor = UIColor.black.withAlphaComponent(0.7).cgColor
+        boundingBox?.layer.shadowOpacity = 1
+        boundingBox?.layer.shadowOffset = CGSize(width: 0, height: 3.0)
+        boundingBox?.layer.shadowRadius = 3
+        boundingBox?.layer.cornerRadius = 6.0
+        boundingBox?.alpha = 0.0
+
+        view.addSubview(boundingBox!)
     }
 
     // MARK: - Image classification
     lazy var classificationRequest: VNCoreMLRequest = {
         do {
-            let model = try VNCoreMLModel(for: VigetLogoClassifier().model)
+            let model = try VNCoreMLModel(for: VigetLogoDetector().model)
             let request = VNCoreMLRequest(model: model, completionHandler: { [weak self] request, error in
                 self?.processClassifications(for: request, error: error)
             })
@@ -151,26 +184,52 @@ class ViewController: UIViewController {
 
     func processClassifications(for request: VNRequest, error: Error?) {
         DispatchQueue.main.async {
-            let results = request.results
             var confidence = Float(0.0)
-            let classifications = results as! [VNClassificationObservation]
+            let results = request.results
 
-            // This setup allows for models with multiple "Viget" classifications, which improved
-            // accuracy in some cases during testing.
-            if !classifications.isEmpty {
-                let vigetClassifications = classifications.filter { $0.identifier != "NotVigetLogo" }
-                confidence = vigetClassifications.max { a, b in a.confidence < b.confidence }!.confidence
+            // TODO: Render multiple boxes instead of one?
+            for observation in results! where observation is VNRecognizedObjectObservation {
+                guard let objectObservation = observation as? VNRecognizedObjectObservation else {
+                    continue
+                }
+                confidence = max(confidence, objectObservation.labels[0].confidence)
+
+                UIView.animate(
+                    withDuration: self.needleAnimationDuration,
+                    delay: 0.0,
+                    animations: {
+                        let screenSize = UIScreen.main.bounds.size
+
+                        let x = objectObservation.boundingBox.midX * screenSize.width
+
+                        // TODO: Why does this value need to be reversed?
+                        let y = screenSize.height - (objectObservation.boundingBox.midY * screenSize.height)
+
+                        let height = (objectObservation.boundingBox.height * screenSize.height) + (self.boundingBoxOffset * 2)
+                        let width = (objectObservation.boundingBox.width * screenSize.width) + (self.boundingBoxOffset * 2)
+
+                        self.boundingBox!.frame = CGRect(
+                            origin: CGPoint(
+                                // TODO: Why does the offset need to be added here in order to make the box position realistic?
+                                x: x - (width / 2) + self.boundingBoxOffset,
+                                y: y - (height / 2) + self.boundingBoxOffset
+                            ),
+                            size: CGSize(width: width, height: height)
+                        )
+                    }
+                )
             }
 
-            let showMatchIndicator = confidence > 0.85
+            let isGoodMatch = confidence > 0.85
 
             UIView.animate(
-                withDuration: self.classificationCheckInterval / 2,
+                withDuration: self.needleAnimationDuration,
                 delay: 0.0,
                 animations: {
                     self.needle.transform = CGAffineTransform(rotationAngle: self.getNeedleRadiansForConfidence(confidence))
                     self.needleShadow.transform = CGAffineTransform(rotationAngle: self.getNeedleRadiansForConfidence(confidence))
-                    self.labelsMatchIndicator.alpha = showMatchIndicator ? 1 : 0
+                    self.labelsMatchIndicator.alpha = isGoodMatch ? 1 : 0
+                    self.boundingBox?.alpha = (isGoodMatch && self.isBoundingBoxVisible) ? 1 : 0
                 }
             )
         }

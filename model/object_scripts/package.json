@@ -1,0 +1,15 @@
+{
+  "name": "object_scripts",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "annotate": "node ./annotate.js",
+    "remove-rotation": "node ./remove-rotation.js",
+    "test-bounding-boxes": "node ./test-bounding-boxes.js"
+  },
+  "dependencies": {
+    "fs-extra": "^8.1.0",
+    "gm": "^1.23.1"
+  }
+}
