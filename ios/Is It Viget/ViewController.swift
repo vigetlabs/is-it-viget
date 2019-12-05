@@ -30,7 +30,7 @@ class ViewController: UIViewController {
     // Timing values for checks
     let jitterCheckInterval = 0.15
     let needleAnimationDuration = 0.5
-    let classificationCheckInterval = 0.1
+    let classificationCheckInterval = 0.25
 
     // Visible bounding box when debugging
     var boundingBox: UIView?
@@ -187,6 +187,12 @@ class ViewController: UIViewController {
             var confidence = Float(0.0)
             let results = request.results
 
+            if results == nil {
+                NSLog("VNRequest failed")
+                print("VNRequest failed")
+                return
+            }
+
             // TODO: Render multiple boxes instead of one?
             for observation in results! where observation is VNRecognizedObjectObservation {
                 guard let objectObservation = observation as? VNRecognizedObjectObservation else {
@@ -239,16 +245,17 @@ class ViewController: UIViewController {
         cameraController.captureImage {(image, error) in
             guard let image = image else {
                 // Will throw "operation couldn't be completed" when closing/reopening app sometimes
+                // (and on simulators)
                 // but this error can be ignored.
                 return
             }
-
-            self.updateClassifications(for: image)
 
             if saveImage {
                 try? PHPhotoLibrary.shared().performChangesAndWait {
                     PHAssetChangeRequest.creationRequestForAsset(from: image)
                 }
+            } else {
+                self.updateClassifications(for: image)
             }
         }
     }

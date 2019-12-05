@@ -8,8 +8,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         _ application: UIApplication,
         didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?
     ) -> Bool {
-        LaunchScreenManager.instance.animateAfterLaunch(window!.rootViewController!.view)
-        
         return true
     }
 }
