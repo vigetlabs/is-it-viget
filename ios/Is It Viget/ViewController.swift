@@ -189,7 +189,6 @@ class ViewController: UIViewController {
 
             if results == nil {
                 NSLog("VNRequest failed")
-                print("VNRequest failed")
                 return
             }
 
