@@ -4,7 +4,7 @@ Is It Viget is a small ML-driven demo project created for two Viget.com articles
 - [Animate Your iOS Splash Screen](https://www.viget.com/articles/animated-ios-launch-screen)
 - [Build a Logo-Detecting App with iOS Machine Learning](https://www.viget.com/articles/ios-ml-logo-detection/)
 
-This readme covers managing and updating the ML model in the app. **To learn more about the app, read the articles above!**
+This readme covers managing and updating the app. **To learn more about _building_ the app, read the articles above!**
 
 ![demo](./docs/iiv__demo.gif)
 
