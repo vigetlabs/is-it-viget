@@ -1,4 +1,3 @@
-
 Is It Viget is a small ML-driven demo project created for two Viget.com articles:
 
 - [Animate Your iOS Splash Screen](https://www.viget.com/articles/animated-ios-launch-screen)
