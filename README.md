@@ -88,8 +88,8 @@ Export the AppIcon slice from Affinity Designer (1024x1024, JPG) and use https:/
 
 ## Setup Fastlane
 
-`bundle update`
-`bundle exec fastlane match appstore`
+- `bundle update`
+- `bundle exec fastlane match appstore`
 
 ## Sending to TestFlight
 
