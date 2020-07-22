@@ -98,3 +98,12 @@ In Xcode, update both the version and build number in Targets > Is It Viget.
 Then, run `bundle exec fastlane pilot upload`. This will build the app and send it to TestFlight.
 
 Once everything is finished, commit your change and push it to the `release` branch.
+
+After your build finishes processing, you'll need to submit it to Apple.
+
+- Open https://appstoreconnect.apple.com/apps/1486984018/testflight/groups/22f7f008-52b1-4ebd-9c1f-a14568e0eb47
+- Go down to Build and click the + icon
+- Select the newest build, click "Next"
+- Put "Version bump, no new functionality." or something similar into "What to test", and submit
+
+Apple should review the app within a few days, and it'll appear in TestFlight after they approve it.
