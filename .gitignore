@@ -2,3 +2,7 @@
 *.xcuserstate
 model/object_data_bounding_boxes
 model/object_scripts/node_modules
+
+# Generated build files
+/Is It Viget.ipa
+/Is It Viget.app.dSYM.zip

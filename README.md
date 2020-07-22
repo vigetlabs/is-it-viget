@@ -7,6 +7,7 @@ This readme covers managing and updating the ML app. **If you're just following 
 1. [Development](#development)
 1. [The Model](#the-model)
 1. [Design Notes](#design-notes)
+1. [Distribution (Internal)](#distribution)
 
 ---
 
@@ -80,3 +81,20 @@ Export the AppIcon slice from Affinity Designer (1024x1024, JPG) and use https:/
 - Open the ZIP to find the `AppIcon.appiconset` folder
 - In Xcode, open the `Assets.xcassets` folder and delete the existing `AppIcon`.
 - Drag the `AppIcon.appiconset` folder into your assets.
+
+---
+
+# Distribution
+
+## Setup Fastlane
+
+`bundle update`
+`bundle exec fastlane match appstore`
+
+## Sending to TestFlight
+
+In Xcode, update both the version and build number in Targets > Is It Viget.
+
+Then, run `bundle exec fastlane pilot upload`. This will build the app and send it to TestFlight.
+
+Once everything is finished, commit your change and push it to the `release` branch.

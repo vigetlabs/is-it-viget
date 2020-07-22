@@ -1,0 +1,5 @@
+lane :release do
+  build_app(project: './ios/Is It Viget.xcodeproj')
+
+  fastlane pilot
+end

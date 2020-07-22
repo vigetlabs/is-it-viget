@@ -1,0 +1,12 @@
+app_identifier 'com.viget.is-it-viget'
+
+# Apple Developer Portal Team ID
+team_id 'JZNN87YRMJ'
+
+# iTunes Connect Team ID
+itc_team_id '118193743'
+for_platform :ios do
+  for_lane :release do
+    app_identifier 'com.viget.is-it-viget'
+  end
+end
