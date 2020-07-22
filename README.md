@@ -91,4 +91,4 @@ Export the AppIcon slice from Affinity Designer (1024x1024, JPG) and use https:/
 
 ## Distribution (Viget only)
 
-To distribute the app internally, check out the `release` branch and read the details at the end of the README.md.
+To distribute the app internally, check out the `release` branch and [read the details at the end of the README.md.](https://github.com/vigetlabs/is-it-viget/tree/release#distribution)
