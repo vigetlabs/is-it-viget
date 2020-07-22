@@ -88,3 +88,7 @@ Export the AppIcon slice from Affinity Designer (1024x1024, JPG) and use https:/
 - Open the ZIP to find the `AppIcon.appiconset` folder
 - In Xcode, open the `Assets.xcassets` folder and delete the existing `AppIcon`.
 - Drag the `AppIcon.appiconset` folder into your assets.
+
+## Distribution (Viget only)
+
+To distribute the app internally, check out the `release` branch and read the details at the end of the README.md.
