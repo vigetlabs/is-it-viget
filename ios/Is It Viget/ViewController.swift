@@ -92,7 +92,8 @@ class ViewController: UIViewController {
     // MARK: - Image classification
     lazy var classificationRequest: VNCoreMLRequest = {
         do {
-            let model = try VNCoreMLModel(for: VigetLogoClassifier().model)
+            let configuration = MLModelConfiguration()
+            let model = try VNCoreMLModel(for: VigetLogoClassifier(configuration: configuration).model)
             let request = VNCoreMLRequest(model: model, completionHandler: { [weak self] request, error in
                 self?.processClassifications(for: request, error: error)
             })
